@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://img.icons8.com/nolan/2x/f4-key.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/ova01-desktop.css" />
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href=" https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+	<link rel="stylesheet" type="text/css" href="css/skills.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/experience.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script type = "text/javascript" src = "https://cimatecead.senaicimatec.com.br/projects/js/animacaoscroll.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cimatecead.senaicimatec.com.br/projects/css/animacaoscroll.css" />
+    
+   
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="ova01-desktop" />
+    <div class="ova01-desktop screen">
+      <div class="widget-wrapper-tQK5wE">
+        <img class="wallpaper2-1-7qzRzE" src="img/wallpaper2-1@1x.png" />
+        <script>
+          window.addEventListener("load", function () {
+            var image = document.querySelectorAll(".wallpaper2-1-7qzRzE");
+            new simpleParallax(image, {
+              orientation: "left",
+              scale: 1.9,
+              overflow: true,
+              delay: 0.3,
+              transition: "cubic-bezier(0,0,0.58,1)",
+            });
+          });
+        </script>
+
+        
+      </div>
+      <div class="x6-tQK5wE" id="projects">
+        <div class="personal-I2BeRc concertone-normal-stiletto-25px reveal fade-top">Personal</div>
+        <div class="projects-I2BeRc concertone-normal-white-28px reveal fade-top" show-on-scroll>Projects</div>
+        <img class="line-1-I2BeRc reveal fade-top" src="img/line-1@2x.png" />
+        <div class="x04-I2BeRc concertone-normal-white-35px reveal fade-top">04</div>
+        <div class="clash-card project1 reveal fade-left">
+          <div class="clash-card__image clash-card__image--project1">
+            <img src="img/celularmeudef.png" />
+            
+          </div>
+          
+          <div class="clash-card__level clash-card__level--project1">Mobile</div>
+          <div class="clash-card__unit-name">Meu Menu</div>
+          <div class="clash-card__unit-description">
+            Mobile application, built in java, Android SDK, Photoshop CS6 and Intel XDK.
+          </div>
+        </div>
+        <div class="clash-card2 project2 reveal fade-right">
+          <div class="clash-card__image clash-card__image--project2">
+            <img src="img/OngInfoLogo.png"  />
+            
+          </div>
+          
+          <div class="clash-card__level clash-card__level--project1">Mobile</div>
+          <div class="clash-card__unit-name">Onginfo</div>
+          <div class="clash-card__unit-description">
+            Mobile application, built in java, Android SDK, Firebase
+          </div>
+        </div>
+      </div>
+      <div class="x5-tQK5wE" id="work">
+        <img class="line-1-8qT7UE reveal fade-top" src="img/line-1@2x.png" />
+        <div class="x03-8qT7UE concertone-normal-white-35px reveal fade-top">03</div>
+        <div class="experience-8qT7UE concertone-normal-stiletto-25px reveal fade-top">Experience</div>
+        <div class="education-work-8qT7UE concertone-normal-white-28px reveal fade-top" show-on-scroll>
+          Education/Work
+        </div>
+
+        <div id="container">
+          <div class="container_boxes reveal fade-bottom">
+              <!-- Card 1 -->
+              <div class="cardexp card_1" id="card1">
+                <h3>Senai Cimatec - <b style="color: orange;">Electrical Technology</b><h3> 
+                  <div class="namecurse"> Certificate </div>
+                    <h5>2014 - 2015</h5> 
+                    <div class="image-card" style="background-image: url('img/Cimatec.jpg')">
+                    </div>
+                  
+                  <p>Basic electricity </br> Electrical Circuits and Electrical Components
+                  </br>  Work rules and safety</p>
+                  
+                 <div class="button-hand">
+                  
+                  <div class="next" onclick="next()">NEXT</div></div>
+              </div>
+  
+              <!-- Card 2 -->
+              <div class="cardexp card_2" id="card2">
+                <h3>University Salvador - <b style="color: orange;">Computer Science</b><h3> 
+                 <div class="namecurse"> Bachelor's degree </div>
+                    <h5>2014 - 2019</h5> 
+                    <div class="image-card" style="background-image: url('img/unifacs.png')">
+                    </div>
+                  
+                  <p>Coding [C, C++, C#, JS, PHP, JAVA, HTML] </br> 
+                    Database and Web Security [SQL Server, Mysql, Oracle]
+                  </br> System Design [Photoshop, CSS, ADOBE]</br> Business Methodologies [Agile, Scrum, Design Thinking]</p>
+                  
+                 <div class="prev" onclick="prev()">PREV</div>
+                 <div class="button-hand">
+                  <div class="next" onclick="next()">NEXT</div></div>
+              </div>
+  
+              <!-- Card 3 -->
+              <div class="cardexp card_3" id="card3">
+                <h3>Hospital São Rafael - <b style="color: orange;">Back-End</b><h3> 
+                  <div class="namecurse"> Intern </div>
+                    <h5>2017 - 2019</h5> 
+                    <div class="image-card" style="background-image: url('img/Hospital.jpg')">
+                    </div>
+                  
+                  <p>Database [SQL, Oracle, Mysql] </br> Conducted lectures on the new electronic medical record
+                  </br>  Implemented electronic medical record [MVPEP]</br>Management financial software</p>
+                  
+                 <div class="prev" onclick="prev()">PREV</div>
+                 <div class="button-hand">
+                  <div class="next" onclick="next()">NEXT</div></div>
+              </div>
+  
+              <!-- Card 3 -->
+              <div class="cardexp card_4" id="card4">
+                <h3>Senai Cimatec - <b style="color: orange;">Full-Stack</b><h3> 
+                  <div class="namecurse"> Programmer </div> 
+                    <h5>2020 - 2022</h5> 
+                    <div class="image-card" style="background-image: url('img/Cimatec2.jpg')">
+                    </div>
+                   
+                  <p>Web/Mobile programmer [HTML, CSS, Javascript, Typescript, React, Vue.js, Figma] </br> Game Developer [Gdscript, Construct, C, Java, Unity, Godot, Tyrano builder]
+                  </br>  System Analyst [Microsoft Server, IIS, Postman, API-Rest, SQLServer, Xampp]</p>
+                  
+                 <div class="prev" onclick="prev()">PREV</div>
+                  
+              </div>
+  
+          </div>
+      </div>
+
+      </div>
+      <div class="x4-tQK5wE" id="skills">
+        <div class="coding-73qmsX concertone-normal-stiletto-25px reveal fade-top">Coding</div>
+        <div class="skills-73qmsX reveal fade-top" show-on-scroll>Skills</div>
+		
+        <img class="line-1-73qmsX reveal fade-top" src="img/line-1@2x.png" />
+        <div class="x02-73qmsX concertone-normal-white-35px reveal fade-top">02</div>
+        <div class="frame-2-73qmsX"><div class="cards">
+ 
+  <h1>Languages and Database</h1>
+  <div class="card card__one">
+    <div class="card__bg"></div>
+    <img class="card__img" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png" />
+    
+  </div>
+  <div class="card card__one">
+    <div class="card__bg"></div>
+    <img class="card__img" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png" />
+    
+  </div>
+  <div class="card card__one">
+    <div class="card__bg"></div>
+    <img class="card__img" src="https://cdn.icon-icons.com/icons2/1451/PNG/512/jsfolder_99356.png" />
+    
+  </div>
+  <div class="card card__one">
+    <div class="card__bg"></div>
+    <img class="card__img" src="https://cdn.icon-icons.com/icons2/3053/PNG/512/mysql_workbench_macos_bigsur_icon_189924.png" />
+    
+  </div>
+  <div class="card card__one">
+    <div class="card__bg"></div>
+    <img class="card__img" src="https://cdn.icon-icons.com/icons2/1495/PNG/512/godot_103035.png" />
+    
+  </div>
+  <div class="card card__one">
+    <div class="card__bg"></div>
+    <img class="card__img" src="https://cdn.icon-icons.com/icons2/2667/PNG/512/folder_react_icon_161285.png" />
+    
+  </div>
+  <div class="card card__one">
+    <div class="card__bg"></div>
+    <img class="card__img" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/nodejs_plain_logo_icon_146409.png" />
+    
+  </div>
+  <h1>Frameworks and Apps</h1>
+  <div class="card card__two">
+    <div class="card__bg"></div>
+    <img class="card__img" src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" />
+    
+	
+  </div>
+  <div class="card card__two">
+    <div class="card__bg"></div>
+    <img class="card__img" src="https://cdn.icon-icons.com/icons2/2429/PNG/512/figma_logo_icon_147289.png" />
+    
+	
+  </div>
+  <div class="card card__two">
+    <div class="card__bg"></div>
+    <img class="card__img" src="https://cdn.icon-icons.com/icons2/3053/PNG/512/postman_alt_macos_bigsur_icon_189814.png" />
+    
+	
+  </div>
+  <div class="card card__two">
+    <div class="card__bg"></div>
+    <img class="card__img" src="https://cdn.icon-icons.com/icons2/1381/PNG/512/xampp_94513.png" />
+    
+	
+  </div>
+  <div class="card card__two">
+    <div class="card__bg"></div>
+    <img class="card__img" src="https://cdn.icon-icons.com/icons2/3053/PNG/512/godot_macos_bigsur_icon_190137.png" />
+    
+	
+  </div>
+  <div class="card card__two">
+    <div class="card__bg"></div>
+    <img class="card__img" src="https://upload.wikimedia.org/wikipedia/commons/7/79/Construct_3_Logo.svg" />
+    
+	
+  </div>
+  <div class="card card__two">
+    <div class="card__bg"></div>
+    <img class="card__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCPJ8rOPRAduPnUrND4rgIYug_GFkc4a7uCdJbqJiwtn_UxwNmqBJKhTLYB_g6BaQN-Xo&usqp=CAU" />
+    
+	
+  </div>
+ </br></br>
+  
+</div>
+</div>
+      </div>
+      <div class="about-me-tQK5wE smart-layers-pointers" id="about">
+        <img class="line-1-xfXzLG reveal fade-top" src="img/line-1@2x.png" />
+        <div class="x01-xfXzLG concertone-normal-white-35px reveal fade-top">01</div>
+    <div class="discover-xfXzLG concertone-normal-stiletto-25px reveal fade-top">Discover</div>
+        <div class="about-me-xfXzLG reveal fade-top" show-on-scroll>About Me</div>
+
+        <div class="cardme reveal fade-bottom">
+          
+          <div class="additional">
+            <img class="foto" src="img/foto-minha-1@2x.png" />
+            <div class="user-card">
+              <div class="level center">
+                Level 25
+              </div>
+              <div class="points center">
+                Front-End
+              </div>
+              
+            </div>
+            <div class="more-info">
+            </br>
+              <h1>Fernando Fábio</h1>
+            </br> </br>
+             
+              <div class="coords">
+                
+                <p style="color: #ffffff;">Hello, My name is Fernando Freire, I have a degree in System Analyst, I&#39;m a full-stack developer from
+                  Salvador Bahia, I&#39;m passionate about programming, always dedicated with affection for my work.</p>
+              </div>
+              <div class="stats">
+              
+                <div>
+                  <a style="color: #ffffff;" href="https://www.linkedin.com/in/fernando-fábio-0b7b1a14b/" target="_blank">
+                  <i class="fa fa-linkedin-square"></i>
+                </a>
+                </div>
+                <div>
+                  <a style="color: #ffffff;" href="mailto:fernandofabio31@gmail.com">
+                  <i class="fa fa-envelope"></i>
+                  </a>
+                </div>
+                
+                
+              </div>
+            </div>
+          </div>
+          <div class="general">
+            <h1>Fernando Fábio</h1>
+            <p>Hello, My name is Fernando Freire, I have a degree in System Analyst, I&#39;m a full-stack developer from
+              Salvador Bahia, I&#39;m passionate about programming, always dedicated with affection for my work.</p>
+            
+          </div>
+        </div>
+        
+        
+        
+      </div>
+     <div class="home-tQK5wE" id="home">
+        <div class="fernando-freire-J5xcTZ smart-layers-pointers animate-enter6">Fernando Freire</div>
+        <div class="full-stack-web-developer-J5xcTZ smart-layers-pointers animate-enter7">Full-Stack Web Developer</div>
+        <img class="line-1-J5xcTZ" src="img/line-1-3@2x.png" />
+        <div class="scroll-down-J5xcTZ concertone-normal-white-25px animate-enter8">Scroll Down</div>
+       <a href="#home"> <div class="home-J5xcTZ smart-layers-pointers concertone-normal-white-25px">Home</div></a>
+       <a href="#about"> <div class="about-J5xcTZ smart-layers-pointers concertone-normal-white-25px">About</div></a>
+        <a href="#skills"> <div class="skills-J5xcTZ smart-layers-pointers concertone-normal-white-25px">Skills</div></a>
+        <a href="#projects"> <div class="projects-J5xcTZ smart-layers-pointers concertone-normal-white-25px">Projects</div></a>
+        <a href="#work"> <div class="education-work-J5xcTZ smart-layers-pointers concertone-normal-white-25px">Education/Work</div></a>
+        <a href="css/Resume FernandoFabio (EN).pdf" target="_blank"><div class="frame-1-J5xcTZ">
+          <img class="rectangle-1-ACZu29 smart-layers-pointers" src="img/rectangle-1-1@2x.png" />
+          <div class="download-ACZu29 smart-layers-pointers">Download</div>
+        </div></a>
+      </div>
+    </div>
+    <script>
+      function ShowOnScroll() {
+        this.toShow = [];
+        this.nextEventY = undefined;
+      }
+
+      ShowOnScroll.prototype.show = function (e) {
+        e.style.display = "";
+      };
+
+      ShowOnScroll.prototype.hide = function (e) {
+        e.style.display = "none";
+      };
+
+      ShowOnScroll.prototype.getTop = function (e) {
+        if (e.Top != undefined && e.Top != 0) {
+          return e.Top;
+        }
+        var top = 0;
+        var iter = e;
+        do {
+          top += iter.offsetTop || 0;
+          iter = iter.offsetParent;
+        } while (iter);
+        e.Top = top;
+        return top;
+      };
+
+      ShowOnScroll.prototype.onScroll = function () {
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+          return;
+        }
+        this.nextEventY = undefined;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            this.show(e);
+            this.toShow.shift();
+            i--;
+          } else {
+            this.nextEventY = top;
+            break;
+          }
+        }
+      };
+
+      ShowOnScroll.prototype.resetScrolling = function () {
+        // Clear state
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          this.show(e);
+        }
+        this.toShow = [];
+        this.nextEventY == undefined;
+
+        // Collect items
+        var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+        itemsToShowOnScroll = itemsToShowOnScroll.filter(function (e) {
+          return e.getAttribute("show-on-scroll") != undefined;
+        });
+        var getTop = this.getTop;
+        itemsToShowOnScroll.sort(function (a, b) {
+          return getTop(a) - getTop(b);
+        });
+        for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+          var e = itemsToShowOnScroll[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            continue;
+          }
+          this.toShow.push(e);
+          this.hide(e);
+          this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+        }
+      };
+
+      ShowOnScroll.prototype.handleEvent = function (e) {
+        switch (e.type) {
+          case "scroll":
+            this.onScroll();
+            break;
+          case "resize":
+            this.resetScrolling();
+            break;
+        }
+      };
+
+      ShowOnScroll.prototype.init = function () {
+        this.resetScrolling();
+        window.addEventListener("scroll", this);
+        window.addEventListener("resize", this);
+      };
+
+      // After anima-src
+      setTimeout(function () {
+        var instShowOnScroll = new ShowOnScroll();
+        instShowOnScroll.init();
+      }, 250);
+    </script>
+	<script>
+	const cards = document.querySelector(".cards");
+const images = document.querySelectorAll(".card__img");
+const backgrounds = document.querySelectorAll(".card__bg");
+const range = 40;
+
+// const calcValue = (a, b) => (((a * 100) / b) * (range / 100) -(range / 2)).toFixed(1);
+const calcValue = (a, b) => (a/b*range-range/2).toFixed(1) // thanks @alice-mx
+
+let timeout;
+document.addEventListener('mousemove', ({x, y}) => {
+  if (timeout) {
+    window.cancelAnimationFrame(timeout);
+  }
+  	
+  timeout = window.requestAnimationFrame(() => {
+    const yValue = calcValue(y, window.innerHeight);
+    const xValue = calcValue(x, window.innerWidth);
+
+    cards.style.transform = `rotateX(${yValue}deg) rotateY(${xValue}deg)`;
+
+    [].forEach.call(images, (image) => {
+      image.style.transform = `translateX(${-xValue}px) translateY(${yValue}px)`;
+    });
+
+    [].forEach.call(backgrounds, (background) => {
+      background.style.backgroundPosition = `${xValue*.45}px ${-yValue*.45}px`;
+    })
+	})
+}, false);
+</script>
+<script>
+  // Cards
+  let card1 = document.getElementById("card1"),
+            card2 = document.getElementById("card2"),
+            card3 = document.getElementById("card3"),
+            card4 = document.getElementById("card4"),
+            card_length = document.querySelectorAll(".cardexp");
+
+        // container
+        let container = document.getElementById("container");
+
+        // Card List
+        let card_list = [card1, card2, card3, card4];
+
+        // next function
+        let counter = 1;
+        function next() {
+            console.log("next:" + counter)
+            if (counter < card_length.length) {
+                card_list[counter].classList.add("active");
+                backgroundFunc(counter);
+                counter += 1;
+            }
+            else {
+                counter = card_length.length;
+            }
+        }
+
+        function prev() {
+            if (counter > 1) {
+                card_list[counter - 1].classList.remove("active");
+                counter -= 1;
+            }
+            else {
+                counter = 1;
+            }
+            backgroundFunc(counter-1);
+            console.log("prev:" + counter)
+        }
+        
+        // background function
+        function backgroundFunc(x) {
+            if (x == 0) {
+                container.style.background = "transparent";
+            }
+            else if (x == 1) {
+                container.style.background = "transparent";
+            }
+            else if (x == 2) {
+                container.style.background = "transparent";
+            }
+            else if (x == 3) {
+                container.style.background = "transparent"
+            }
+        }
+
+</script>
+  </body>
+</html>

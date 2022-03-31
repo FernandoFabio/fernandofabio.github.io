@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+:root {
+    --size: 150px;
+    --radius: calc(var(--size) * 20 / 100);
+  }
+
+  .button-hand:before {
+    position: absolute;
+    bottom: 80px;
+    right: 10px;
+   
+    
+    content: "👇";
+    font-size: 40px;
+    transform: scaleX(-1);
+    right: 35px;
+    top: 230px;
+    animation: up-down 1s infinite;
+}
+
+  @keyframes up-down {
+    50% {
+      margin-top: -20px;
+    }
+  }
+
+.namecurse{
+    position: absolute;
+    top: 0px;
+    
+    right: 82%;
+}
+.image-card {
+    width: 300px;
+    height: 150px;
+    border-radius: var(--radius);
+    
+    background-size: cover;
+    
+    position: relative;
+    top: 10px;
+    right: -130px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+#container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    overflow: hidden;
+    transition: 1s;
+    cursor:default;
+    
+}
+.cardexp{
+    position: absolute;
+    left: 52%;
+    top: 150px;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px #333;
+    padding: 20px;
+    z-index: 999;
+}
+.image {
+    width: 50px;
+    height: 50px;
+    
+    margin: 10px auto;
+    
+}
+h2 {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0;
+    user-select: none;
+}
+h5 {
+    
+    text-align: right;
+    position: absolute;
+    top: 18px;
+    user-select: none;
+    right: 40px;
+}
+h6 {
+    
+   
+    position: absolute;
+    top: 40px;
+    
+    right: 85%;
+}
+p {
+    margin-top: 0;
+    font-weight: 400;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.64);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+    user-select: none;
+    
+}
+.next {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.prev {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* CARD 1 */
+.card_1 {
+    background: #f6f6f6;
+    transition: 1s;
+    
+}
+.card_1 .image{
+    background-image: url("https://abimo.org.br/wp-content/uploads/2019/06/cimatec.jpg");
+}
+.card_1 h2 {
+    color: #ac5422;
+}
+.card_1 .next{
+    color: #ac5422;
+}
+.card_1 .prev{
+    color: #ac5422;
+}
+/* CARD 2 */
+.card_2 {
+    background: #f6f6f6;
+    transform: translateX(-50%) scale(2);
+    margin: 1200px;
+    opacity: 0;
+    transition: 1.4s;
+}
+.card_2 .image{
+    background-image: url("https://png.pngtree.com/png_detail/18/09/10/pngtree-vector-deer-png-clipart_3296362.jpg");
+    height: 100px;
+}
+.card_2 h2{
+    color: #7c4019
+}
+.card_2 .next{
+    color: #7c4019;
+}
+.card_2 .prev{
+    color: #7c4019;
+}
+.card_2.active{
+    opacity: 1;
+    margin: 0;
+    transform: translateX(-50%) scale(1) rotate(10deg);
+}
+
+
+/* CARD 3 */
+.card_3 {
+    background: #f6f6f6;
+    transform: translateX(-50%) scale(2);
+    margin: -1200px;
+    transition: 1.4s;
+}
+.card_3 .image {
+    background-image: url("https://png.pngtree.com/png_detail/18/09/10/pngtree-vector-deer-png-clipart_3296362.jpg");
+    height: 100px;
+}
+.card_3 h2{
+    color: #8b8b8b
+}
+.card_3 .next{
+    color: #8b8b8b;
+}
+.card_3 .prev{
+    color: #8b8b8b;
+}
+.card_3.active{
+    margin: 0;
+    transform: translateX(-60%) scale(1) rotate(-7deg);
+}
+
+/* CARD 4 */
+.card_4 {
+    background: #f6f6f6;
+    transform: translateX(-50%) scale(2);
+    margin: -1200px 1000px;
+    transition: 1.4s;
+}
+.card_4 .image {
+    background-image: url("https://png.pngtree.com/element_origin_min_pic/16/07/09/1457809f52cac1b.jpg");
+    width: 220px;
+    margin-bottom: 0;
+    background-size: 350px 350px;
+    background-position: center;
+}
+.card_4 h2{
+    color: #e8672e
+}
+.card_4 .next{
+    color: #e8672e;
+}
+.card_4 .prev{
+    color: #e8672e;
+}
+.card_4.active{
+    margin: 0;
+    transform: translateX(-50%) scale(1) rotate(4deg);
+}
+
+----------
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+html, body {
+  background: #FCEEB5;
+  font-family: Abel, Arial, Verdana, sans-serif;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.cardme {
+  width: 650px;
+  height: 300px;
+  background-color: #fff;
+  background: linear-gradient(#f8f8f8, #fff);
+  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+  border-radius: 6px;
+  overflow: hidden;
+  position: absolute;
+  left: calc(50.00% - 350px);
+  top: calc(50.00% - 100px);
+  margin: 1.5rem;
+}
+
+.cardme h1 {
+  text-align: center;
+  color: black;
+}
+
+.cardme .additional {
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient(#dE685E, #EE786E);
+  transition: width 0.4s;
+  overflow: hidden;
+  z-index: 2;
+}
+
+
+
+
+.cardme:hover .additional {
+  width: 100%;
+  border-radius: 0 5px 5px 0;
+}
+
+.cardme .additional .user-card {
+  width: 150px;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+.cardme .additional .user-card::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10%;
+  right: -2px;
+  height: 80%;
+  border-left: 2px solid rgba(0,0,0,0.025);*/
+}
+
+.cardme .additional .user-card .level,
+.cardme .additional .user-card .points {
+  top: 15%;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: bold;
+  background: rgba(0,0,0,0.15);
+  padding: 0.125rem 0.75rem;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.cardme .additional .user-card .points {
+  top: 85%;
+}
+
+.cardme .additional .user-card svg {
+  top: 50%;
+}
+
+.cardme .additional .more-info {
+  width: 500px;
+  float: left;
+  position: absolute;
+  left: 150px;
+  height: 100%;
+}
+
+.cardme .additional .more-info h1 {
+  color: #fff;
+  margin-bottom: 0;
+  
+}
+
+
+
+.cardme .additional .coords {
+  margin: 0 1rem;
+  color: #fff;
+  font-size: 1rem;
+  
+}
+
+
+
+.cardme .additional .coords span + span {
+  float: right;
+}
+
+.cardme .additional .stats {
+  font-size: 2rem;
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  top: auto;
+  color: #fff;
+}
+
+
+
+.cardme .additional .stats > div {
+  flex: 1;
+  text-align: center;
+}
+
+.cardme .additional .stats i {
+  display: block;
+}
+
+.cardme .additional .stats div.title {
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.cardme .additional .stats div.value {
+  font-size: 1.0rem;
+  font-weight: bold;
+  line-height: 1.0rem;
+}
+
+.cardme .additional .stats div.value.infinity {
+  font-size: 2.5rem;
+}
+
+.cardme .general {
+  width: 500px;
+  height: 100%;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.cardme .general .more {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.9em;
+}
+
+.foto{
+    position: absolute;
+    left: 18px;
+    top: 60px;
+    weight:150px;
+    height: 180px;
+    box-shadow: #FCEEB5;
+
+}
+
+----------------------
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+ *, *:before, *:after {
+	 box-sizing: border-box;
+}
+ body {
+	 background: linear-gradient(to bottom, rgba(140, 122, 122, 1) 0%, rgba(175, 135, 124, 1) 65%, rgba(175, 135, 124, 1) 100%) fixed;
+	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg') no-repeat center center fixed;
+	 background-size: cover;
+	 font: 14px/20px "Lato", Arial, sans-serif;
+	 color: #9e9e9e;
+	 margin-top: 30px;
+}
+ .slide-container {
+	 margin: auto;
+	 width: 600px;
+	 text-align: center;
+}
+ .wrapper {
+	 padding-top: 40px;
+	 padding-bottom: 40px;
+}
+ .wrapper:focus {
+	 outline: 0;
+}
+ .clash-card {
+	 background: white;
+	 width: 300px;
+	 display: inline-block;
+	 margin: auto;
+	 border-radius: 19px;
+	 
+	 text-align: center;
+	 box-shadow: -1px 15px 30px -12px black;
+	 z-index: 9999;
+     position: absolute;
+     left: calc(50.00% - 500px);
+     top: calc(50.00% - 150px);
+}
+.clash-card2 {
+    background: white;
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 19px;
+    
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+    position: absolute;
+    left: calc(50.00% - 120px);
+    top: calc(50.00% - 150px);
+}
+ .clash-card__image {
+	 position: relative;
+	 height: 230px;
+	 margin-bottom: 35px;
+	 border-top-left-radius: 14px;
+	 border-top-right-radius: 14px;
+}
+
+ .clash-card__image--project1 {
+	 background-color:#a7633b69;
+     
+}
+ .clash-card__image--project1 img {
+	 width: 260px;
+	 position: absolute;
+	 top: -10px;
+	 left: 30px;
+     
+}
+.clash-card__image2--project1 img {
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    left: -70px;
+    
+}
+
+ .clash-card__image--project2 {
+	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/archer-bg.jpg');
+}
+ .clash-card__image--project2 img {
+    width: 180px;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+ .clash-card__image--giant {
+	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/giant-bg.jpg');
+}
+ .clash-card__image--giant img {
+	 width: 340px;
+	 position: absolute;
+	 top: -30px;
+	 left: -25px;
+}
+ .clash-card__image--goblin {
+	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/goblin-bg.jpg');
+}
+ .clash-card__image--goblin img {
+	 width: 370px;
+	 position: absolute;
+	 top: -21px;
+	 left: -37px;
+}
+ .clash-card__image--wizard {
+	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg');
+}
+ .clash-card__image--wizard img {
+	 width: 345px;
+	 position: absolute;
+	 top: -28px;
+	 left: -10px;
+}
+ .clash-card__level {
+	 text-transform: uppercase;
+	 font-size: 12px;
+	 font-weight: 700;
+	 margin-bottom: 3px;
+}
+ .clash-card__level--project1 {
+	 color: #ec9b3b;
+}
+ .clash-card__level--project2 {
+	 color: #ee5487;
+}
+ .clash-card__level--giant {
+	 color: #f6901a;
+}
+ .clash-card__level--goblin {
+	 color: #82bb30;
+}
+ .clash-card__level--wizard {
+	 color: #4facff;
+}
+ .clash-card__unit-name {
+	 font-size: 26px;
+	 color: black;
+	 font-weight: 900;
+	 margin-bottom: 5px;
+}
+ .clash-card__unit-description {
+	 padding: 20px;
+	 margin-bottom: 10px;
+}
+ .clash-card__unit-stats--project1 {
+	 background: #ec9b3b;
+}
+ .clash-card__unit-stats--project1 .one-third {
+	 border-right: 1px solid #bd7c2f;
+}
+ .clash-card__unit-stats--project2 {
+	 background: #ee5487;
+}
+ .clash-card__unit-stats--project2 .one-third {
+	 border-right: 1px solid #d04976;
+}
+ .clash-card__unit-stats--giant {
+	 background: #f6901a;
+}
+ .clash-card__unit-stats--giant .one-third {
+	 border-right: 1px solid #de7b09;
+}
+ .clash-card__unit-stats--goblin {
+	 background: #82bb30;
+}
+ .clash-card__unit-stats--goblin .one-third {
+	 border-right: 1px solid #71a32a;
+}
+ .clash-card__unit-stats--wizard {
+	 background: #4facff;
+}
+ .clash-card__unit-stats--wizard .one-third {
+	 border-right: 1px solid #309eff;
+}
+ .clash-card__unit-stats {
+	 color: white;
+	 font-weight: 700;
+	 border-bottom-left-radius: 14px;
+	 border-bottom-right-radius: 14px;
+}
+ .clash-card__unit-stats .one-third {
+	 width: 33%;
+	 float: left;
+	 padding: 20px 15px;
+}
+ .clash-card__unit-stats sup {
+	 position: absolute;
+	 bottom: 4px;
+	 font-size: 45%;
+	 margin-left: 2px;
+}
+ .clash-card__unit-stats .stat {
+	 position: relative;
+	 font-size: 24px;
+	 margin-bottom: 10px;
+}
+ .clash-card__unit-stats .stat-value {
+	 text-transform: uppercase;
+	 font-weight: 400;
+	 font-size: 12px;
+}
+ .clash-card__unit-stats .no-border {
+	 border-right: none;
+}
+ .clearfix:after {
+	 visibility: hidden;
+	 display: block;
+	 font-size: 0;
+	 content: " ";
+	 clear: both;
+	 height: 0;
+}
+ .slick-prev {
+	 left: 100px;
+	 z-index: 999;
+}
+ .slick-next {
+	 right: 100px;
+	 z-index: 999;
+}
+ 

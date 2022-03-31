@@ -1,0 +1,73 @@
+:root { 
+  --black: #000000;
+  --crowshead: #1d100af0;
+  --ferra: #734848;
+  --stiletto: #9b3b3b;
+  --white: #ffffff;
+  --black:rgba(138, 138, 138, 0.993);
+  --white-2: #ffffff40;
+ 
+  --font-size-l: 23px;
+  --font-size-m: 18px;
+  --font-size-xl: 25px;
+  --font-size-xxl: 28px;
+  --font-size-xxxl: 35px;
+  --font-size-xxxxl: 40px;
+  --font-size-xxxxxl: 70px;
+ 
+  --font-family-concert_one: "Concert One", Helvetica;
+}
+.concertone-normal-white-25px {
+  color: var(--white);
+  font-family: var(--font-family-concert_one);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+.concertone-normal-black-25px {
+  color: var(--black);
+  font-family: var(--font-family-concert_one);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.concertone-normal-stiletto-25px {
+  color: var(--stiletto);
+  font-family: var(--font-family-concert_one);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.concertone-normal-white-35px {
+  color: var(--white-2);
+  font-family: var(--font-family-concert_one);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.concertone-normal-black-35px {
+  color: var(--black);
+  font-family: var(--font-family-concert_one);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.concertone-normal-white-28px {
+  color: var(--white);
+  font-family: var(--font-family-concert_one);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.concertone-normal-black-28px {
+  color: var(--black);
+  font-family: var(--font-family-concert_one);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}

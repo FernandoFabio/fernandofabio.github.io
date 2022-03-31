@@ -1,0 +1,828 @@
+/* screen - ova01-desktop */
+
+.ova01-desktop {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 2940px;
+  min-width: 1280px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.ova01-desktop .widget-wrapper-tQK5wE {
+  background-color: transparent;
+  height: 2960px;
+  left: -986px;
+  position: absolute;
+  top: 0px;
+  width: 3744px;
+  z-index: 0;
+}
+
+.ova01-desktop .wallpaper2-1-7qzRzE {
+  background-color: transparent;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  width: 100%;
+  z-index: 0;
+}
+
+.ova01-desktop .x6-tQK5wE {
+  background-color: var(--crowshead);
+  height: 20.41%;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 79.59%;
+  width: 100%;
+  z-index: 0;
+}
+
+.ova01-desktop .personal-I2BeRc {
+  -webkit-text-stroke: 1px var(--ferra);
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 587px);
+  letter-spacing: 2.50px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: calc(50.00% - 274px);
+  width: 148px;
+  
+}
+
+.ova01-desktop .projects-I2BeRc {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: calc(50.00% - 581px);
+  letter-spacing: 2.80px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: calc(50.00% - 230px);
+  width: 143px;
+}
+
+.ova01-desktop .projects-I2BeRc.animate-enter {
+  animation: animate-enter-frames 0.40s ease-in 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes animate-enter-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.ova01-desktop .line-1-I2BeRc {
+  background-color: transparent;
+  height: 4px;
+  left: calc(50.00% + 543px);
+  position: absolute;
+  top: calc(50.00% - 217px);
+  width: 82px;
+}
+
+.ova01-desktop .x04-I2BeRc {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% + 458px);
+  letter-spacing: 3.50px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: calc(50.00% - 245px);
+  white-space: nowrap;
+  width: 96px;
+}
+
+.ova01-desktop .x5-tQK5wE {
+  background-color: var(--crowshead);
+  cursor: pointer;
+  height: 20.41%;
+  left: 0px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  top: 59.18%;
+  transition: all 0.6s ease;
+  width: 100%;
+  z-index: 0;
+}
+
+.ova01-desktop .x5-tQK5wE:hover {
+  opacity: 1;
+}
+
+.ova01-desktop .line-1-8qT7UE {
+  background-color: transparent;
+  height: 4px;
+  left: calc(50.00% + 543px);
+  position: absolute;
+  top: calc(50.00% - 217px);
+  width: 82px;
+}
+
+.ova01-desktop .x03-8qT7UE {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% + 458px);
+  letter-spacing: 3.50px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: calc(50.00% - 245px);
+  white-space: nowrap;
+  width: 96px;
+}
+
+.ova01-desktop .experience-8qT7UE {
+  -webkit-text-stroke: 1px var(--ferra);
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 587px);
+  letter-spacing: 2.50px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: calc(50.00% - 274px);
+  width: 148px;
+}
+
+.ova01-desktop .education-work-8qT7UE {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: calc(50.00% - 593px);
+  letter-spacing: 2.80px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: calc(50.00% - 231px);
+  width: 243px;
+}
+
+.ova01-desktop .education-work-8qT7UE.animate-enter1 {
+  animation: animate-enter1-frames 0.40s ease-in 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes animate-enter1-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.ova01-desktop .x4-tQK5wE {
+  background-color: var(--crowshead);
+  height: 20.41%;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 38.78%;
+  width: 100%;
+}
+
+.ova01-desktop .coding-73qmsX {
+  -webkit-text-stroke: 1px var(--ferra);
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 614px);
+  letter-spacing: 2.50px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: calc(50.00% - 274px);
+  width: 148px;
+}
+
+.ova01-desktop .skills-73qmsX {
+  background-color: transparent;
+  color: var(--white);
+  display: block;
+  font-family: var(--font-family-concert_one);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% - 650px);
+  letter-spacing: 4.00px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: calc(50.00% - 231px);
+  width: 243px;
+}
+
+
+
+.ova01-desktop .skills-73qmsX.animate-enter2 {
+  animation: animate-enter2-frames 0.40s ease-in 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes animate-enter2-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.ova01-desktop .line-1-73qmsX {
+  background-color: transparent;
+  height: 4px;
+  left: calc(50.00% + 543px);
+  position: absolute;
+  top: calc(50.00% - 217px);
+  width: 82px;
+}
+
+.ova01-desktop .x02-73qmsX {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% + 458px);
+  letter-spacing: 3.50px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: calc(50.00% - 245px);
+  white-space: nowrap;
+  width: 96px;
+}
+
+.ova01-desktop .frame-2-73qmsX {
+  background-color: transparent;
+  height: 450px;
+  left: calc(50.00% - 500px);
+  overflow: hidden;
+  position: absolute;
+  top: calc(50.00% - 150px);
+  width: 1050px;
+}
+
+.ova01-desktop .teste-KbblJd {
+  background-color: transparent;
+  height: auto;
+  left: 385px;
+  letter-spacing: 2.80px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 170px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.ova01-desktop .about-me-tQK5wE {
+  background-color: #1c0f0af0;
+  cursor: pointer;
+  height: 16.97%;
+  left: 0px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  top: 21.80%;
+  transition: all 0.6s ease;
+  width: 100%;
+}
+
+.ova01-desktop .about-me-tQK5wE:hover {
+  opacity: 1;
+}
+
+.ova01-desktop .line-1-xfXzLG {
+  background-color: transparent;
+  height: 4px;
+  left: calc(50.00% + 543px);
+  position: absolute;
+  top: calc(50.00% - 166px);
+  width: 82px;
+}
+
+.ova01-desktop .x01-xfXzLG {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% + 458px);
+  letter-spacing: 3.50px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: calc(50.00% - 194px);
+  white-space: nowrap;
+  width: 96px;
+}
+
+.ova01-desktop .foto-minha-1-xfXzLG {
+  background-color: transparent;
+  cursor: pointer;
+  height: 363px;
+  left: calc(50.00% - 523px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: calc(50.00% - 188px);
+  transition: all 0.2s ease;
+  width: 237px;
+}
+
+.ova01-desktop .foto-minha-1-xfXzLG:hover {
+  transform: scale(1.1);
+}
+
+.ova01-desktop .discover-xfXzLG {
+  -webkit-text-stroke: 1px var(--ferra);
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 614px);
+  letter-spacing: 2.50px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: calc(50.00% - 202px);
+  width: 148px;
+}
+
+.ova01-desktop .about-me-xfXzLG {
+  background-color: transparent;
+  color: var(--white);
+  display: block;
+  font-family: var(--font-family-concert_one);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% - 600px);
+  letter-spacing: 4.00px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: calc(50.00% - 162px);
+  width: 243px;
+}
+
+.ova01-desktop .about-me-xfXzLG.animate-enter3 {
+  animation: animate-enter3-frames 0.40s ease-in 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes animate-enter3-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.ova01-desktop .line-2-xfXzLG {
+  background-color: transparent;
+  height: 4px;
+  left: calc(50.00% - 243px);
+  position: absolute;
+  top: calc(50.00% - 102px);
+  width: 42px;
+}
+
+.ova01-desktop .hello-my-name-is-fer-xfXzLG {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-concert_one);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% - 243px);
+  letter-spacing: 1.80px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% - 100px);
+  width: 731px;
+}
+
+.ova01-desktop .group-1-xfXzLG {
+  background-color: transparent;
+  height: 159px;
+  left: calc(50.00% - 243px);
+  position: absolute;
+  top: calc(50.00% + 50px);
+  width: 725px;
+}
+
+.ova01-desktop .rectangle-1-y9cR0E {
+  background-color: transparent;
+  height: 147px;
+  left: calc(50.00% - 366px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: calc(50.00% - 84px);
+  width: 729px;
+}
+
+.ova01-desktop .name-fernando-freire-y9cR0E {
+  background-color: transparent;
+  color: var(--white);
+  display: block;
+  font-family: var(--font-family-concert_one);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% - 343px);
+  letter-spacing: 2.30px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% - 71px);
+  width: 377px;
+}
+
+.ova01-desktop .name-fernando-freire-y9cR0E.animate-enter4 {
+  animation: animate-enter4-frames 1.20s ease-in 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes animate-enter4-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.ova01-desktop .age-24-adress-salvador-brazil-y9cR0E {
+  background-color: transparent;
+  color: var(--white);
+  display: block;
+  font-family: var(--font-family-concert_one);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% + 36px);
+  letter-spacing: 2.30px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% - 71px);
+  width: 310px;
+}
+
+.ova01-desktop .age-24-adress-salvador-brazil-y9cR0E.animate-enter5 {
+  animation: animate-enter5-frames 1.80s ease-in 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes animate-enter5-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.ova01-desktop .home-tQK5wE {
+  background-color: #1d100ae6;
+  height: 21.80%;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.ova01-desktop .fernando-freire-J5xcTZ {
+  -webkit-text-stroke: 2px #5e1d1d;
+  background-color: transparent;
+  color: #e85252d9;
+  cursor: pointer;
+  display: block;
+  filter: blur(10px);
+  font-family: var(--font-family-concert_one);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% - 438px);
+  letter-spacing: 7.00px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: calc(50.00% - 42px);
+  transition: all 0.2s ease;
+  width: 828px;
+}
+
+.ova01-desktop .fernando-freire-J5xcTZ.animate-enter6 {
+  animation: animate-enter6-frames 1.80s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  filter: blur(10px);
+  opacity: 0;
+}
+
+@keyframes animate-enter6-frames {
+  from{opacity: 0;
+filter: blur(10px);
+}
+to{opacity: 1;
+filter: none;
+}
+}
+
+.ova01-desktop .fernando-freire-J5xcTZ:hover {
+  transform: translate(0, -5px);
+}
+
+.ova01-desktop .full-stack-web-developer-J5xcTZ {
+  -webkit-text-stroke: 1px #5b1919;
+  background-color: transparent;
+  color: var(--white);
+  cursor: pointer;
+  display: block;
+  font-family: var(--font-family-concert_one);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+  height: 15.74%;
+  left: 24.14%;
+  letter-spacing: 3.50px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 56.14%;
+  transform: scale(0.9);
+  transition: all 0.2s ease;
+  width: 48.12%;
+}
+
+.ova01-desktop .full-stack-web-developer-J5xcTZ.animate-enter7 {
+  animation: animate-enter7-frames 2.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+@keyframes animate-enter7-frames {
+  from{opacity: 0;
+transform: scale(0.9);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.ova01-desktop .full-stack-web-developer-J5xcTZ:hover {
+  transform: scale(0.9); 
+}
+
+.ova01-desktop .line-1-J5xcTZ {
+  background-color: transparent;
+  height: 4px;
+  left: calc(50.00% - 583px);
+  position: absolute;
+  top: calc(50.00% + 259px);
+  width: 82px;
+}
+
+.ova01-desktop .scroll-down-J5xcTZ {
+  -webkit-text-stroke: 1px var(--black);
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: calc(50.00% - 634px);
+  letter-spacing: 2.50px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: calc(50.00% + 208px);
+  transform: translate(0, 25px);
+  white-space: nowrap;
+  width: 183px;
+}
+
+.ova01-desktop .scroll-down-J5xcTZ.animate-enter8 {
+  animation: animate-enter8-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter8-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.ova01-desktop .home-J5xcTZ {
+  -webkit-text-stroke: 1px #763d3d;
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: calc(50.00% - 242px);
+  letter-spacing: 2.50px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: calc(50.00% - 273px);
+  transition: all 0.2s ease;
+  width: 84px;
+}
+
+.ova01-desktop .home-J5xcTZ:hover {
+  color: #BF4343
+}
+
+.ova01-desktop .about-J5xcTZ {
+  -webkit-text-stroke: 1px #7e3838;
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: calc(50.00% - 114px);
+  letter-spacing: 2.50px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  top: calc(50.00% - 273px);
+  transition: all 0.2s ease;
+  width: 79px;
+}
+
+.ova01-desktop .about-J5xcTZ:hover {
+  color: #BF4343
+}
+
+.ova01-desktop .skills-J5xcTZ {
+  -webkit-text-stroke: 1px #7d3c3c;
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: calc(50.00% - 1px);
+  letter-spacing: 2.50px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: calc(50.00% - 272px);
+  transition: all 0.2s ease;
+  width: 92px;
+}
+
+.ova01-desktop .skills-J5xcTZ:hover {
+  color: #BF4343
+}
+
+.ova01-desktop .projects-J5xcTZ {
+  -webkit-text-stroke: 1px #763838;
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: calc(50.00% + 350px);
+  letter-spacing: 2.50px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: calc(50.00% - 273px);
+  transition: all 0.2s ease;
+  width: 120px;
+}
+
+.ova01-desktop .projects-J5xcTZ:hover {
+  color: #BF4343
+}
+
+.ova01-desktop .education-work-J5xcTZ {
+  -webkit-text-stroke: 1px #783c3c;
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: calc(50.00% + 91px);
+  letter-spacing: 2.50px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: calc(50.00% - 273px);
+  transition: all 0.2s ease;
+  width: 259px;
+}
+
+.ova01-desktop .education-work-J5xcTZ:hover {
+  color: #BF4343
+}
+
+.ova01-desktop .frame-1-J5xcTZ {
+  background-color: transparent;
+  height: 76px;
+  left: calc(50.00% + 493px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: calc(50.00% - 274px);
+  width: 117px;
+}
+
+.ova01-desktop .rectangle-1-ACZu29 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 88px;
+  left: calc(50.00% - 62px);
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  top: calc(50.00% - 48px);
+  transition: all 0.4s ease;
+  width: 125px;
+}
+
+.ova01-desktop .rectangle-1-ACZu29:hover {
+  transform: scale(1.1);
+}
+
+.ova01-desktop .download-ACZu29 {
+  -webkit-text-stroke: 1px #503d3d;
+  background-color: transparent;
+  color: #d74141;
+  cursor: pointer;
+  font-family: var(--font-family-concert_one);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% - 48px);
+  letter-spacing: 2.00px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: calc(50.00% - 33px);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 94px;
+}
+
+.ova01-desktop .download-ACZu29:hover {
+  color: #ffffff
+}
