@@ -1,0 +1,31 @@
+.hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
+@keyframes hu__hu__ {
+    50% { transform: translateY(30px) }
+}
+
+.leFadeIn span { animation-name: leFadeIn }
+@keyframes leFadeIn {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
+/*scrollbar*/
+
+  .scroll::-webkit-scrollbar {
+    display: block!important;
+    width: 8px!important;
+    height: 8px!important;
+  }
+  
+  .scroll::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  .scroll::-webkit-scrollbar-thumb {
+    background: #A8A8A8; 
+    border-radius: 3.5px;
+  }
+  
+  .scroll::-webkit-scrollbar-thumb:hover {
+    background: #787878; 
+  }

@@ -1,0 +1,2343 @@
+/* screen - portifolio */
+
+.portifolio {
+  background-color: transparent;
+  margin: 0px;
+  min-height: 3214px;
+  min-width: 1000px;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.portifolio .part6-P5xwPQ {
+  background-color: var(--alabaster);
+  height: 424px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 2790px;
+  width: 100%;
+}
+
+.portifolio .contact-me-PMrkCX {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 421px);
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  text-align: left;
+  top: 93px;
+  width: 539px;
+}
+
+.portifolio .inputs-PMrkCX {
+  background-color: transparent;
+  height: 28px;
+  left: 129px;
+  position: absolute;
+  top: 467px;
+  width: 243px;
+}
+
+.portifolio .newsletter-signup-8n5MaC {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 8px;
+  left: 0px;
+  overflow: hidden;
+  padding: 5px 0px;
+  position: relative;
+  top: 0px;
+}
+
+.portifolio .rectangle-5-kk0IlD {
+  background-color: transparent;
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 4px;
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.portifolio .i-would-like-to-receive-the-newsletter-kk0IlD {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+
+.portifolio .input-area-PMrkCX {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 25.417652130126953px;
+  left: calc(50.00% - 422px);
+  position: absolute;
+  top: 158px;
+  width: 860px;
+}
+
+.portifolio .container-Hq0jWh {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 16.945100784301758px;
+  position: relative;
+  width: 100%;
+}
+
+.portifolio .input-field-FxwbQW {
+  flex: 1;
+  flex-grow: 1;
+  padding: 5.29534387588501px 5.29534387588501px 16.945100784301758px;
+}
+
+.portifolio .your-name-K5p9gQ {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: 19.1px;
+  margin-top: -0.53px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.portifolio .input-field-8wqizr {
+  flex: 1;
+  flex-grow: 1;
+  padding: 5.29534387588501px 5.29534387588501px 16.945100784301758px;
+}
+
+.portifolio .email-address-dx3hJl {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: 19.1px;
+  margin-top: -0.53px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.portifolio .input-field-Hq0jWh {
+  align-self: stretch;
+  height: 77px;
+  padding: 5.29534387588501px 5.29534387588501px 52.95344161987305px;
+  width: 100%;
+}
+
+.portifolio .message-LAJl2N {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: 19.1px;
+  margin-bottom: -0.09px;
+  margin-top: -1.15px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.portifolio .botao-scroll-Hq0jWh {
+  height: 41.71727752685547px;
+  position: relative;
+}
+
+.portifolio .send-message-zJx8mI {
+  background-color: transparent;
+  color: #646466;
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: 18.8px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% - 66px);
+  letter-spacing: -1.13px;
+  line-height: 23.6px;
+  position: absolute;
+  text-align: left;
+  top: 9px;
+  width: 132px;
+}
+
+.portifolio .part5-P5xwPQ {
+  background-color: var(--alabaster);
+  height: 558px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 2232px;
+  width: 100%;
+}
+
+.portifolio .experience-and-education-qmVlV4 {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 421px);
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  text-align: left;
+  top: 93px;
+  width: 539px;
+}
+
+.portifolio .frame-101-qmVlV4::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.portifolio .frame-101-qmVlV4 {
+  background-color: transparent;
+  height: 396px;
+  left: calc(50.00% - 453px);
+  overflow: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  top: 156px;
+  width: 898px;
+}
+
+.portifolio .exp1-04qBpO {
+  background-color: transparent;
+  height: 171px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 876px;
+}
+
+.portifolio .vector-14-U7kM0W {
+  height: 1px;
+  left: calc(50.00% - 438px);
+  top: 16px;
+  width: 25px;
+}
+
+.portifolio .group-98-U7kM0W {
+  height: 58px;
+  left: calc(50.00% - 288px);
+  top: 45px;
+  width: 123px;
+}
+
+.portifolio .software-engineer-24coIX {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 62px);
+  letter-spacing: 0.00px;
+  line-height: 17.6px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 119px;
+}
+
+.portifolio .x2021-2025-24coIX {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 62px);
+  letter-spacing: 0.00px;
+  line-height: 17.6px;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  white-space: nowrap;
+  width: 88px;
+}
+
+.portifolio .full-time-developer-U7kM0W {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 140px);
+  letter-spacing: 0.00px;
+  line-height: 17.6px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  width: 578px;
+}
+
+.portifolio .vector-15-U7kM0W {
+  left: calc(50.00% - 267px);
+  width: 698px;
+}
+
+.portifolio .group-97-U7kM0W {
+  left: calc(50.00% - 390px);
+}
+
+.portifolio .exp2-04qBpO {
+  background-color: transparent;
+  height: 191px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 188px;
+  width: 888px;
+}
+
+.portifolio .university-of-salvador-Nk9z9q {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 415px);
+  letter-spacing: -1.32px;
+  line-height: 27.7px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 208px;
+}
+
+.portifolio .vector-14-Nk9z9q {
+  height: 1px;
+  left: calc(50.00% - 444px);
+  top: 16px;
+  width: 25px;
+}
+
+.portifolio .group-98-Nk9z9q {
+  height: 148px;
+  left: calc(50.00% - 292px);
+  top: 43px;
+  width: 130px;
+}
+
+.portifolio .bachelors-degree-in-Ufu7S9 {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 65px);
+  letter-spacing: 0.00px;
+  line-height: 17.6px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 126px;
+}
+
+.portifolio .x2014-2019-Ufu7S9 {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 65px);
+  letter-spacing: 0.00px;
+  line-height: 17.6px;
+  position: absolute;
+  text-align: left;
+  top: 77px;
+  white-space: nowrap;
+  width: 88px;
+}
+
+.portifolio .graduated-with-a-str-Nk9z9q {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 146px);
+  letter-spacing: 0.00px;
+  line-height: 17.6px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  width: 590px;
+}
+
+.portifolio .vector-15-Nk9z9q {
+  left: calc(50.00% - 207px);
+  width: 632px;
+}
+
+.portifolio .group-97-Nk9z9q {
+  left: calc(50.00% - 396px);
+}
+
+.portifolio .exp3-04qBpO {
+  background-color: transparent;
+  height: 191px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 396px;
+  width: 888px;
+}
+
+.portifolio .hospital-so-rafael-bdCcm8 {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 415px);
+  letter-spacing: -1.32px;
+  line-height: 27.7px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 208px;
+}
+
+.portifolio .vector-14-bdCcm8 {
+  height: 1px;
+  left: calc(50.00% - 444px);
+  top: 16px;
+  width: 25px;
+}
+
+.portifolio .group-98-bdCcm8 {
+  height: 148px;
+  left: calc(50.00% - 292px);
+  top: 43px;
+  width: 130px;
+}
+
+.portifolio .systems-intern-zZFifV {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 65px);
+  letter-spacing: 0.00px;
+  line-height: 17.6px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 126px;
+}
+
+.portifolio .x2017-2019-zZFifV {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 65px);
+  letter-spacing: 0.00px;
+  line-height: 17.6px;
+  position: absolute;
+  text-align: left;
+  top: 24px;
+  white-space: nowrap;
+  width: 88px;
+}
+
+.portifolio .provided-support-in-bdCcm8 {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 146px);
+  letter-spacing: 0.00px;
+  line-height: 17.6px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  width: 590px;
+}
+
+.portifolio .vector-15-bdCcm8 {
+  left: calc(50.00% - 229px);
+  width: 654px;
+}
+
+.portifolio .group-97-bdCcm8 {
+  left: calc(50.00% - 396px);
+}
+
+.portifolio .exp4-04qBpO {
+  background-color: transparent;
+  height: 171px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 604px;
+  width: 876px;
+}
+
+.portifolio .vector-14-A4GMV6 {
+  height: 1px;
+  left: calc(50.00% - 438px);
+  top: 16px;
+  width: 25px;
+}
+
+.portifolio .group-98-A4GMV6 {
+  height: 58px;
+  left: calc(50.00% - 288px);
+  top: 45px;
+  width: 123px;
+}
+
+.portifolio .technical-in-electrotechnics-BSuy8D {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 62px);
+  letter-spacing: 0.00px;
+  line-height: 17.6px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 119px;
+}
+
+.portifolio .x2014-2015-BSuy8D {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 62px);
+  letter-spacing: 0.00px;
+  line-height: 17.6px;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  white-space: nowrap;
+  width: 88px;
+}
+
+.portifolio .completed-a-technica-A4GMV6 {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 140px);
+  letter-spacing: 0.00px;
+  line-height: 17.6px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  width: 578px;
+}
+
+.portifolio .vector-15-A4GMV6 {
+  left: calc(50.00% - 267px);
+  width: 698px;
+}
+
+.portifolio .group-97-A4GMV6 {
+  left: calc(50.00% - 390px);
+}
+
+.portifolio .part4-P5xwPQ {
+  background-color: var(--alabaster);
+  height: 558px;
+  left: 0px;
+  position: absolute;
+  top: 1674px;
+  width: 100%;
+}
+
+.portifolio .my-projects-OEvgHx {
+  background-color: transparent;
+  color: #6a6a6c;
+  font-family: var(--font-family-albert_sans);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: calc(50.00% - 415px);
+  letter-spacing: -2.88px;
+  line-height: 57.6px;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 108px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.portifolio .this-is-a-list-of-pr-OEvgHx {
+  background-color: transparent;
+  color: var(--scarpa-flow);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% + 178px);
+  letter-spacing: 0.00px;
+  line-height: 17.6px;
+  position: absolute;
+  text-align: left;
+  top: 114px;
+  width: 298px;
+}
+
+.portifolio .frame-3784-OEvgHx {
+  background-color: transparent;
+  height: 355px;
+  left: calc(50.00% - 422px);
+  position: absolute;
+  top: 182px;
+  width: 896px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.portifolio .frame-3784-botao {
+ 
+  left: calc(50.00% - 50px);
+  position: absolute;
+  top: 540px;
+ 
+  
+}
+
+
+.portifolio .card1-rMA9qV {
+  background-color: transparent;
+  box-shadow: 0px 3.861811876296997px 3.861811876296997px #00000040;
+  height: 335px;
+  left: calc(50.00% - 443px);
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 319px;
+}
+
+.portifolio .fundo-2jwjlU {
+  background-color: #faefd8;
+  border-bottom-style: solid;
+  border-bottom-width: 2.8963584899902344px;
+  border-color: #8a7979;
+  border-left-style: none;
+  border-radius: 9.65px;
+  border-right-style: none;
+  border-top-style: none;
+}
+
+.portifolio .image-2jwjlU {
+  height: 93px;
+  left: calc(50.00% - 122px);
+  top: 97px;
+  width: 245px;
+}
+
+.portifolio .barra-2jwjlU {
+  left: calc(50.00% - 71px);
+  top: 191px;
+}
+
+.portifolio .title-2jwjlU {
+  color: var(--black);
+  left: calc(50.00% - 92px);
+  text-align: center;
+  top: 35px;
+}
+
+.portifolio .text-2jwjlU {
+  left: calc(50.00% - 144px);
+  top: 199px;
+  width: 285px;
+}
+
+.portifolio .explore-2jwjlU {
+  left: calc(50.00% - 20px);
+  line-height: 12.6px;
+  text-align: left;
+  top: 308px;
+  width: 55px;
+}
+
+.portifolio .tag-2jwjlU {
+  height: 14px;
+  left: calc(50.00% - 146px);
+  top: 0px;
+  width: 45px;
+}
+
+.portifolio .rectangle-94-SXCSrx {
+  background-color: var(--venice-blue);
+  height: 14px;
+  left: calc(50.00% - 22px);
+  width: 43px;
+}
+
+.portifolio .explore-SXCSrx {
+  left: calc(50.00% - 22px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+  width: 41px;
+}
+
+.portifolio .tag-AAcCNp {
+  height: 13px;
+  left: calc(50.00% - 68px);
+  top: 1px;
+  width: 31px;
+}
+
+.portifolio .rectangle-94-E8UA73 {
+  background-color: var(--jaffa);
+  height: 13px;
+  left: calc(50.00% - 16px);
+  width: 29px;
+}
+
+.portifolio .explore-E8UA73 {
+  left: calc(50.00% - 10px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 1px;
+  white-space: nowrap;
+  width: 21px;
+}
+
+.portifolio .tag-lmjj7o {
+  height: 13px;
+  left: calc(50.00% - 100px);
+  top: 1px;
+  width: 31px;
+}
+
+.portifolio .rectangle-94-I4wvLL {
+  background-color: var(--cinnabar);
+  height: 13px;
+  left: calc(50.00% - 16px);
+  width: 29px;
+}
+
+.portifolio .explore-I4wvLL {
+  left: calc(50.00% - 12px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 1px;
+  white-space: nowrap;
+  width: 21px;
+}
+
+.portifolio .card2-rMA9qV {
+  background-color: transparent;
+  box-shadow: 0px 3.861811876296997px 3.861811876296997px #00000040;
+  height: 335px;
+  left: calc(50.00% - 84px);
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 319px;
+}
+
+.portifolio .fundo-YXTa3x {
+  background-color: #fffee7;
+  border-bottom-style: solid;
+  border-bottom-width: 2.8963584899902344px;
+  border-color: #8a7979;
+  border-left-style: none;
+  border-radius: 9.65px;
+  border-right-style: none;
+  border-top-style: none;
+  box-shadow: 0px 3.861811876296997px 3.861811876296997px #00000040;
+}
+
+.portifolio .imagem-YXTa3x {
+  height: 165px;
+  left: calc(50.00% - 106px);
+  object-fit: cover;
+  top: 54px;
+  width: 213px;
+}
+
+.portifolio .barra-YXTa3x {
+  left: calc(50.00% - 63px);
+  top: 218px;
+}
+
+.portifolio .title-YXTa3x {
+  color: var(--scarpa-flow);
+  left: calc(50.00% - 70px);
+  text-align: left;
+  top: 35px;
+  white-space: nowrap;
+}
+
+.portifolio .text-YXTa3x {
+  left: calc(50.00% - 140px);
+  top: 232px;
+  width: 280px;
+}
+
+.portifolio .explore-YXTa3x {
+  left: calc(50.00% - 20px);
+  line-height: 12.6px;
+  text-align: left;
+  top: 308px;
+  width: 55px;
+}
+
+.portifolio .tag-YXTa3x {
+  height: 13px;
+  left: calc(50.00% - 114px);
+  top: 1px;
+  width: 31px;
+}
+
+.portifolio .rectangle-94-5tNu5N {
+  background-color: var(--jaffa);
+  height: 13px;
+  left: calc(50.00% - 16px);
+  width: 29px;
+}
+
+.portifolio .explore-5tNu5N {
+  left: calc(50.00% - 10px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 1px;
+  white-space: nowrap;
+  width: 21px;
+}
+
+.portifolio .tag-hlft7A {
+  height: 13px;
+  left: calc(50.00% - 146px);
+  top: 0px;
+  width: 31px;
+}
+
+.portifolio .rectangle-94-Fy4y8t {
+  background-color: var(--cinnabar);
+  height: 13px;
+  left: calc(50.00% - 16px);
+  width: 29px;
+}
+
+.portifolio .explore-Fy4y8t {
+  left: calc(50.00% - 12px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 1px;
+  white-space: nowrap;
+  width: 21px;
+}
+
+.portifolio .card3-rMA9qV {
+  background-color: transparent;
+  box-shadow: 0px 3.861811876296997px 3.861811876296997px #00000040;
+  height: 335px;
+  left: calc(50.00% + 275px);
+  overflow: hidden;
+  position: absolute;
+  top: 1px;
+  width: 319px;
+}
+
+.portifolio .fundo-ElsQxu {
+  background-color: transparent;
+}
+
+.portifolio .imagem-ElsQxu {
+  height: 171px;
+  left: calc(50.00% - 84px);
+  top: 55px;
+  width: 173px;
+}
+
+.portifolio .barra-ElsQxu {
+  left: calc(50.00% - 68px);
+  top: 215px;
+}
+
+.portifolio .title-ElsQxu {
+  color: var(--periwinkle);
+  left: calc(50.00% - 56px);
+  text-align: left;
+  top: 34px;
+  white-space: nowrap;
+}
+
+.portifolio .text-ElsQxu {
+  left: calc(50.00% - 142px);
+  top: 227px;
+  width: 285px;
+}
+
+.portifolio .explore-ElsQxu {
+  left: calc(50.00% - 20px);
+  line-height: 12.6px;
+  text-align: left;
+  top: 308px;
+  width: 55px;
+}
+
+.portifolio .tag-ElsQxu {
+  height: 14px;
+  left: calc(50.00% - 146px);
+  top: 1px;
+  width: 45px;
+}
+
+.portifolio .rectangle-94-kcXGoK {
+  background-color: var(--venice-blue);
+  height: 14px;
+  left: calc(50.00% - 22px);
+  width: 43px;
+}
+
+.portifolio .explore-kcXGoK {
+  left: calc(50.00% - 22px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+  width: 41px;
+}
+
+.portifolio .tag-IS7ZvJ {
+  height: 14px;
+  left: calc(50.00% - 100px);
+  top: 1px;
+  width: 45px;
+}
+
+.portifolio .rectangle-94-O26eHz {
+  background-color: #f18d44;
+  height: 14px;
+  left: calc(50.00% - 22px);
+  width: 43px;
+}
+
+.portifolio .explore-O26eHz {
+  left: calc(50.00% - 22px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+  width: 41px;
+}
+
+.portifolio .tag-yilaT8 {
+  height: 14px;
+  left: calc(50.00% - 54px);
+  top: 0px;
+  width: 45px;
+}
+
+.portifolio .rectangle-94-cTLHQz {
+  background-color: #7ebf74;
+  height: 14px;
+  left: calc(50.00% - 22px);
+  width: 43px;
+}
+
+.portifolio .explore-cTLHQz {
+  left: calc(50.00% - 22px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+  width: 41px;
+}
+
+.portifolio .card4-rMA9qV {
+  background-color: transparent;
+  box-shadow: 0px 3.861811876296997px 3.861811876296997px #00000040;
+  height: 335px;
+  left: calc(50.00% + 634px);
+  overflow: hidden;
+  position: absolute;
+  top: 1px;
+  width: 319px;
+}
+
+.portifolio .fundo-bxyAiz {
+  background-color: transparent;
+}
+
+.portifolio .imagem-bxyAiz {
+  height: 171px;
+  left: calc(50.00% - 84px);
+  top: 55px;
+  width: 173px;
+}
+
+.portifolio .barra-bxyAiz {
+  left: calc(50.00% - 71px);
+  top: 195px;
+}
+
+.portifolio .title-bxyAiz {
+  color: var(--periwinkle);
+  left: calc(50.00% - 64px);
+  text-align: left;
+  top: 35px;
+  white-space: nowrap;
+}
+
+.portifolio .text-bxyAiz {
+  left: calc(50.00% - 142px);
+  top: 222px;
+  width: 285px;
+}
+
+.portifolio .explore-bxyAiz {
+  left: calc(50.00% - 20px);
+  line-height: 12.6px;
+  text-align: left;
+  top: 308px;
+  width: 55px;
+}
+
+.portifolio .tag-bxyAiz {
+  height: 14px;
+  left: calc(50.00% - 146px);
+  top: 0px;
+  width: 45px;
+}
+
+.portifolio .rectangle-94-BCq0LS {
+  background-color: var(--venice-blue);
+  height: 14px;
+  left: calc(50.00% - 22px);
+  width: 43px;
+}
+
+.portifolio .explore-BCq0LS {
+  left: calc(50.00% - 22px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+  width: 41px;
+}
+
+.portifolio .card5-rMA9qV {
+  background-color: transparent;
+  box-shadow: 0px 3.861811876296997px 3.861811876296997px #00000040;
+  height: 335px;
+  left: calc(50.00% + 993px);
+  overflow: hidden;
+  position: absolute;
+  top: 1px;
+  width: 319px;
+}
+
+.portifolio .fundo-rX5L7i {
+  background-color: transparent;
+}
+
+.portifolio .imagem-rX5L7i {
+  height: 126px;
+  left: calc(50.00% - 90px);
+  top: 70px;
+  width: 173px;
+}
+
+.portifolio .barra-rX5L7i {
+  left: calc(50.00% - 71px);
+  top: 195px;
+}
+
+.portifolio .title-rX5L7i {
+  color: var(--onyx);
+  left: calc(50.00% - 64px);
+  text-align: left;
+  top: 35px;
+  white-space: nowrap;
+}
+
+.portifolio .text-rX5L7i {
+  color: var(--onyx);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+  left: calc(50.00% - 142px);
+  top: 222px;
+  width: 285px;
+}
+
+.portifolio .explore-rX5L7i {
+  color: var(--onyx);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+  left: calc(50.00% - 20px);
+  line-height: 12.6px;
+  text-align: left;
+  top: 308px;
+  width: 55px;
+}
+
+.portifolio .tag-rX5L7i {
+  height: 14px;
+  left: calc(50.00% - 146px);
+  top: 0px;
+  width: 45px;
+}
+
+.portifolio .rectangle-94-21ohWp {
+  background-color: var(--venice-blue);
+  height: 14px;
+  left: calc(50.00% - 22px);
+  width: 43px;
+}
+
+.portifolio .explore-21ohWp {
+  left: calc(50.00% - 22px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+  width: 41px;
+}
+
+.portifolio .tag-brGScz {
+  height: 13px;
+  left: calc(50.00% - 68px);
+  top: 1px;
+  width: 31px;
+}
+
+.portifolio .rectangle-94-CKQVsk {
+  background-color: var(--jaffa);
+  height: 13px;
+  left: calc(50.00% - 16px);
+  width: 29px;
+}
+
+.portifolio .explore-CKQVsk {
+  left: calc(50.00% - 10px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 1px;
+  white-space: nowrap;
+  width: 21px;
+}
+
+.portifolio .tag-kh9mQ5 {
+  height: 13px;
+  left: calc(50.00% - 100px);
+  top: 1px;
+  width: 31px;
+}
+
+.portifolio .rectangle-94-I44PKS {
+  background-color: var(--cinnabar);
+  height: 13px;
+  left: calc(50.00% - 16px);
+  width: 29px;
+}
+
+.portifolio .explore-I44PKS {
+  left: calc(50.00% - 12px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 1px;
+  white-space: nowrap;
+  width: 21px;
+}
+
+.portifolio .card6-rMA9qV {
+  background-color: transparent;
+  box-shadow: 0px 3.861811876296997px 3.861811876296997px #00000040;
+  height: 335px;
+  left: calc(50.00% + 1352px);
+  overflow: hidden;
+  position: absolute;
+  top: 1px;
+  width: 319px;
+}
+
+.portifolio .fundo-TNBeRb {
+  background-color: transparent;
+}
+
+.portifolio .imagem-TNBeRb {
+  height: 171px;
+  left: calc(50.00% - 84px);
+  top: 55px;
+  width: 173px;
+}
+
+.portifolio .barra-TNBeRb {
+  left: calc(50.00% - 63px);
+  top: 226px;
+}
+
+.portifolio .title-TNBeRb {
+  color: var(--scarpa-flow);
+  left: calc(50.00% - 56px);
+  text-align: left;
+  top: 34px;
+  white-space: nowrap;
+}
+
+.portifolio .text-TNBeRb {
+  left: calc(50.00% - 140px);
+  top: 232px;
+  width: 280px;
+}
+
+.portifolio .explore-TNBeRb {
+  left: calc(50.00% - 20px);
+  line-height: 12.6px;
+  text-align: left;
+  top: 308px;
+  width: 55px;
+}
+
+.portifolio .tag-TNBeRb {
+  height: 14px;
+  left: calc(50.00% - 146px);
+  top: 0px;
+  width: 45px;
+}
+
+.portifolio .rectangle-94-Dafjx0 {
+  background-color: var(--cinnabar);
+  height: 14px;
+  left: calc(50.00% - 22px);
+  width: 43px;
+}
+
+.portifolio .explore-Dafjx0 {
+  left: calc(50.00% - 22px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+  width: 41px;
+}
+
+.portifolio .card7-rMA9qV {
+  background-color: transparent;
+  box-shadow: 0px 3.861811876296997px 3.861811876296997px #00000040;
+  height: 335px;
+  left: calc(50.00% + 1711px);
+  overflow: hidden;
+  position: absolute;
+  top: 1px;
+  width: 319px;
+}
+
+.portifolio .fundo-YXnohh {
+  background-color: transparent;
+}
+
+.portifolio .image-YXnohh {
+  height: 126px;
+  left: calc(50.00% - 86px);
+  object-fit: cover;
+  top: 72px;
+  width: 173px;
+}
+
+.portifolio .barra-YXnohh {
+  left: calc(50.00% - 70px);
+  top: 195px;
+}
+
+.portifolio .title-YXnohh {
+  color: var(--ceramic);
+  left: calc(50.00% - 82px);
+  text-align: left;
+  top: 35px;
+  white-space: nowrap;
+}
+
+.portifolio .text-YXnohh {
+  color: var(--ceramic);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+  left: calc(50.00% - 142px);
+  top: 222px;
+  width: 285px;
+}
+
+.portifolio .explore-YXnohh {
+  color: var(--ceramic);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+  left: calc(50.00% - 20px);
+  line-height: 12.6px;
+  text-align: left;
+  top: 308px;
+  width: 55px;
+}
+
+.portifolio .tag-YXnohh {
+  height: 14px;
+  left: calc(50.00% - 146px);
+  top: 0px;
+  width: 45px;
+}
+
+.portifolio .rectangle-94-9glAhs {
+  background-color: var(--venice-blue);
+  height: 14px;
+  left: calc(50.00% - 22px);
+  width: 43px;
+}
+
+.portifolio .explore-9glAhs {
+  left: calc(50.00% - 22px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+  width: 41px;
+}
+
+.portifolio .card8-rMA9qV {
+  background-color: transparent;
+  box-shadow: 0px 3.861811876296997px 3.861811876296997px #00000040;
+  height: 335px;
+  left: calc(50.00% + 2070px);
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 319px;
+}
+
+.portifolio .fundo-sETwzj {
+  background-color: transparent;
+}
+
+.portifolio .image-sETwzj {
+  height: 126px;
+  left: calc(50.00% - 86px);
+  object-fit: cover;
+  top: 72px;
+  width: 173px;
+}
+
+.portifolio .barra-sETwzj {
+  left: calc(50.00% - 70px);
+  top: 195px;
+}
+
+.portifolio .title-sETwzj {
+  color: var(--white);
+  left: calc(50.00% - 38px);
+  text-align: left;
+  top: 35px;
+  white-space: nowrap;
+}
+
+.portifolio .text-sETwzj {
+  color: var(--white);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+  left: calc(50.00% - 142px);
+  top: 222px;
+  width: 285px;
+}
+
+.portifolio .explore-sETwzj {
+  color: var(--white);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+  left: calc(50.00% - 20px);
+  line-height: 12.6px;
+  text-align: left;
+  top: 309px;
+  width: 55px;
+}
+
+.portifolio .tag-sETwzj {
+  height: 14px;
+  left: calc(50.00% - 146px);
+  top: 0px;
+  width: 31px;
+}
+
+.portifolio .rectangle-94-eGZ6Wk {
+  background-color: var(--venice-blue);
+  height: 14px;
+  left: calc(50.00% - 16px);
+  width: 29px;
+}
+
+.portifolio .explore-eGZ6Wk {
+  left: calc(50.00% - 15px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+  width: 28px;
+}
+
+.portifolio .card9-rMA9qV {
+  background-color: transparent;
+  box-shadow: 0px 3.861811876296997px 3.861811876296997px #00000040;
+  height: 335px;
+  left: calc(50.00% + 2429px);
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 319px;
+}
+
+.portifolio .fundo-fWLaAp {
+  background-color: transparent;
+}
+
+.portifolio .image-fWLaAp {
+  height: 126px;
+  left: calc(50.00% - 86px);
+  top: 70px;
+  width: 173px;
+}
+
+.portifolio .barra-fWLaAp {
+  left: calc(50.00% - 70px);
+  top: 195px;
+}
+
+.portifolio .title-fWLaAp {
+  color: var(--black);
+  left: calc(50.00% - 38px);
+  text-align: left;
+  top: 35px;
+  white-space: nowrap;
+}
+
+.portifolio .text-fWLaAp {
+  left: calc(50.00% - 142px);
+  top: 222px;
+  width: 285px;
+}
+
+.portifolio .explore-fWLaAp {
+  left: calc(50.00% - 20px);
+  line-height: 12.6px;
+  text-align: left;
+  top: 309px;
+  width: 55px;
+}
+
+.portifolio .tag-fWLaAp {
+  height: 14px;
+  left: calc(50.00% - 146px);
+  top: 0px;
+  width: 31px;
+}
+
+.portifolio .rectangle-94-x00APl {
+  background-color: var(--venice-blue);
+  height: 14px;
+  left: calc(50.00% - 16px);
+  width: 29px;
+}
+
+.portifolio .explore-x00APl {
+  left: calc(50.00% - 15px);
+  line-height: 10.1px;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+  width: 28px;
+}
+
+.portifolio .part3-P5xwPQ {
+  background-color: var(--azure);
+  height: 558px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 1116px;
+  width: 100%;
+}
+
+.portifolio .frame-97-7nxgtr::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.portifolio .frame-97-7nxgtr {
+  background-color: transparent;
+  height: 443px;
+  left: calc(50.00% - 70px);
+  overflow: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  top: 115px;
+  width: 485px;
+}
+
+.portifolio .q01-5ZFSXI {
+  background-color: transparent;
+  height: 140px;
+  left: calc(50.00% - 242px);
+  position: absolute;
+  top: 0px;
+  width: 140px;
+}
+
+.portifolio .q02-5ZFSXI {
+  background-color: transparent;
+  height: 140px;
+  left: calc(50.00% - 79px);
+  position: absolute;
+  top: 0px;
+  width: 140px;
+}
+
+.portifolio .q03-5ZFSXI {
+  background-color: transparent;
+  height: 140px;
+  left: calc(50.00% + 85px);
+  position: absolute;
+  top: 0px;
+  width: 140px;
+}
+
+.portifolio .q04-5ZFSXI {
+  background-color: transparent;
+  height: 140px;
+  left: calc(50.00% - 243px);
+  position: absolute;
+  top: 164px;
+  width: 140px;
+}
+
+.portifolio .q05-5ZFSXI {
+  background-color: transparent;
+  height: 140px;
+  left: calc(50.00% - 79px);
+  position: absolute;
+  top: 164px;
+  width: 140px;
+}
+
+.portifolio .q06-5ZFSXI {
+  background-color: transparent;
+  height: 140px;
+  left: calc(50.00% + 85px);
+  position: absolute;
+  top: 164px;
+  width: 140px;
+}
+
+.portifolio .q07-5ZFSXI {
+  background-color: transparent;
+  height: 140px;
+  left: calc(50.00% - 242px);
+  position: absolute;
+  top: 328px;
+  width: 140px;
+}
+
+.portifolio .q08-5ZFSXI {
+  background-color: transparent;
+  height: 140px;
+  left: calc(50.00% - 79px);
+  position: absolute;
+  top: 328px;
+  width: 140px;
+}
+
+.portifolio .q09-5ZFSXI {
+  background-color: transparent;
+  height: 140px;
+  left: calc(50.00% + 85px);
+  position: absolute;
+  top: 328px;
+  width: 140px;
+}
+
+.portifolio .q10-5ZFSXI {
+  background-color: transparent;
+  height: 140px;
+  left: calc(50.00% - 243px);
+  position: absolute;
+  top: 491px;
+  width: 140px;
+}
+
+.portifolio .q11-5ZFSXI {
+  background-color: transparent;
+  height: 140px;
+  left: calc(50.00% - 79px);
+  position: absolute;
+  top: 491px;
+  width: 140px;
+}
+
+.portifolio .q12-5ZFSXI {
+  background-color: transparent;
+  height: 140px;
+  left: calc(50.00% + 85px);
+  position: absolute;
+  top: 491px;
+  width: 140px;
+}
+
+.portifolio .q13-5ZFSXI {
+  background-color: transparent;
+  height: 140px;
+  left: calc(50.00% - 243px);
+  position: absolute;
+  top: 655px;
+  width: 140px;
+}
+
+.portifolio .q14-5ZFSXI {
+  background-color: transparent;
+  height: 140px;
+  left: calc(50.00% - 79px);
+  position: absolute;
+  top: 655px;
+  width: 140px;
+}
+
+.portifolio .t14-7nxgtr {
+  background-color: transparent;
+  height: 204px;
+  left: calc(50.00% - 420px);
+  position: absolute;
+  top: 210px;
+  width: 302px;
+}
+
+.portifolio .titulo-xErW1y {
+  letter-spacing: 0.00px;
+}
+
+.portifolio .texto-xErW1y {
+  line-height: 17.6px;
+}
+
+.portifolio .t13-7nxgtr {
+  background-color: transparent;
+  height: 204px;
+  left: calc(50.00% - 420px);
+  position: absolute;
+  top: 210px;
+  width: 302px;
+}
+
+.portifolio .titulo-xJEDWi {
+  letter-spacing: 0.00px;
+}
+
+.portifolio .texto-xJEDWi {
+  line-height: 17.6px;
+}
+
+.portifolio .t12-7nxgtr {
+  background-color: transparent;
+  height: 204px;
+  left: calc(50.00% - 420px);
+  position: absolute;
+  top: 210px;
+  width: 302px;
+}
+
+.portifolio .titulo-oxmFwm {
+  letter-spacing: 0.00px;
+}
+
+.portifolio .texto-oxmFwm {
+  line-height: 17.6px;
+}
+
+.portifolio .t11-7nxgtr {
+  background-color: transparent;
+  height: 204px;
+  left: calc(50.00% - 420px);
+  position: absolute;
+  top: 210px;
+  width: 302px;
+}
+
+.portifolio .titulo-59IHFx {
+  letter-spacing: 0.00px;
+}
+
+.portifolio .texto-59IHFx {
+  line-height: 27.7px;
+}
+
+.portifolio .span0-Rl77ZY {
+}
+
+.portifolio .span1-Rl77ZY {
+  line-height: 17.6px;
+}
+
+.portifolio .t10-7nxgtr {
+  background-color: transparent;
+  height: 204px;
+  left: calc(50.00% - 420px);
+  position: absolute;
+  top: 210px;
+  width: 302px;
+}
+
+.portifolio .titulo-X1qd3U {
+  letter-spacing: 0.00px;
+}
+
+.portifolio .texto-X1qd3U {
+  line-height: 17.6px;
+}
+
+.portifolio .t09-7nxgtr {
+  background-color: transparent;
+  height: 204px;
+  left: calc(50.00% - 420px);
+  position: absolute;
+  top: 210px;
+  width: 302px;
+}
+
+.portifolio .titulo-6dZubE {
+  letter-spacing: 0.00px;
+}
+
+.portifolio .texto-6dZubE {
+  line-height: 17.6px;
+}
+
+.portifolio .t08-7nxgtr {
+  background-color: transparent;
+  height: 204px;
+  left: calc(50.00% - 420px);
+  position: absolute;
+  top: 210px;
+  width: 302px;
+}
+
+.portifolio .titulo-mPzP0j {
+  letter-spacing: 0.00px;
+}
+
+.portifolio .texto-mPzP0j {
+  line-height: 17.6px;
+}
+
+.portifolio .t07-7nxgtr {
+  background-color: transparent;
+  height: 204px;
+  left: calc(50.00% - 420px);
+  position: absolute;
+  top: 210px;
+  width: 302px;
+}
+
+.portifolio .titulo-SobsVw {
+  letter-spacing: 0.00px;
+}
+
+.portifolio .texto-SobsVw {
+  line-height: 17.6px;
+}
+
+.portifolio .t06-7nxgtr {
+  background-color: transparent;
+  height: 204px;
+  left: calc(50.00% - 420px);
+  position: absolute;
+  top: 210px;
+  width: 302px;
+}
+
+.portifolio .titulo-i2fce2 {
+  letter-spacing: 0.00px;
+}
+
+.portifolio .texto-i2fce2 {
+  line-height: 27.7px;
+}
+
+.portifolio .span0-t4bpfi {
+}
+
+.portifolio .span1-t4bpfi {
+  line-height: 17.6px;
+}
+
+.portifolio .t05-7nxgtr {
+  background-color: transparent;
+  height: 204px;
+  left: calc(50.00% - 420px);
+  position: absolute;
+  top: 210px;
+  width: 302px;
+}
+
+.portifolio .titulo-ANLNvu {
+  letter-spacing: 0.00px;
+}
+
+.portifolio .texto-ANLNvu {
+  line-height: 17.6px;
+}
+
+.portifolio .t04-7nxgtr {
+  background-color: transparent;
+  height: 204px;
+  left: calc(50.00% - 420px);
+  position: absolute;
+  top: 210px;
+  width: 302px;
+}
+
+.portifolio .titulo-YV30ux {
+  letter-spacing: 0.00px;
+}
+
+.portifolio .texto-YV30ux {
+  line-height: 17.6px;
+}
+
+.portifolio .t03-7nxgtr {
+  background-color: transparent;
+  height: 204px;
+  left: calc(50.00% - 420px);
+  position: absolute;
+  top: 210px;
+  width: 302px;
+}
+
+.portifolio .titulo-kjXJws {
+  letter-spacing: 0.00px;
+}
+
+.portifolio .texto-kjXJws {
+  line-height: 27.7px;
+}
+
+.portifolio .span0-GNx4RK {
+}
+
+.portifolio .span1-GNx4RK {
+  line-height: 17.6px;
+}
+
+.portifolio .t02-7nxgtr {
+  background-color: transparent;
+  height: 204px;
+  left: calc(50.00% - 420px);
+  position: absolute;
+  top: 210px;
+  width: 302px;
+}
+
+.portifolio .titulo-VnhRrt {
+  letter-spacing: 0.00px;
+}
+
+.portifolio .texto-VnhRrt {
+  line-height: 17.6px;
+}
+
+.portifolio .t01-7nxgtr {
+  background-color: transparent;
+  height: 204px;
+  left: calc(50.00% - 421px);
+  position: absolute;
+  top: 210px;
+  width: 302px;
+}
+
+.portifolio .titulo-xectyw {
+  letter-spacing: -1.32px;
+}
+
+.portifolio .texto-xectyw {
+  line-height: 17.6px;
+}
+
+.portifolio .my-skills-7nxgtr {
+  background-color: transparent;
+  color: var(--ebb);
+  font-family: var(--font-family-albert_sans);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  height: auto;
+  left: calc(50.00% - 421px);
+  letter-spacing: -2.88px;
+  line-height: 57.6px;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.portifolio .part2-P5xwPQ {
+  background-color: var(--alabaster);
+  height: 558px;
+  left: 0px;
+  position: absolute;
+  top: 558px;
+  width: 100%;
+}
+
+.portifolio .group-95-2OGcvM {
+  background-color: transparent;
+  height: 327px;
+  left: calc(50.00% - 421px);
+  position: absolute;
+  top: 147px;
+  width: 437px;
+}
+
+.portifolio .numbers-lead-to-code-l4TNtw {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 218px);
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 400px;
+}
+
+.portifolio .about-me-l4TNtw {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 218px);
+  letter-spacing: -1.32px;
+  line-height: 27.7px;
+  position: absolute;
+  text-align: left;
+  top: 86px;
+  white-space: nowrap;
+  width: 114px;
+}
+
+.portifolio .my-goal-l4TNtw {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 218px);
+  letter-spacing: -1.32px;
+  line-height: 27.7px;
+  position: absolute;
+  text-align: left;
+  top: 213px;
+  white-space: nowrap;
+  width: 114px;
+}
+
+.portifolio .im-a-full-stack-deve-l4TNtw {
+  left: calc(50.00% - 218px);
+  letter-spacing: 0.00px;
+  line-height: 17.6px;
+  top: 119px;
+  width: 427px;
+}
+
+.portifolio .my-goal-is-to-improv-l4TNtw {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 218px);
+  letter-spacing: 0.00px;
+  line-height: 17.6px;
+  position: absolute;
+  text-align: left;
+  top: 246px;
+  width: 427px;
+}
+
+.portifolio .vector-16-2OGcvM {
+  background-color: transparent;
+  height: 301px;
+  left: calc(50.00% + 81px);
+  position: absolute;
+  top: 163px;
+  width: 311px;
+}
+
+.portifolio .chat-gpt-image-25-de-2OGcvM {
+  background-color: transparent;
+  height: 360px;
+  left: calc(50.00% + 62px);
+  object-fit: cover;
+  position: absolute;
+  top: 86px;
+  width: 360px;
+}
+
+.portifolio .part1-P5xwPQ {
+  background-color: var(--azure);
+  height: 498px;
+  left: 0px;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+}
+
+.portifolio .group-96-D4z5JN {
+  background-color: transparent;
+  height: 285px;
+  left: calc(50.00% - 422px);
+  position: absolute;
+  top: 62px;
+  width: 475px;
+}
+
+.portifolio .full-stack-developer-Dfzyhx {
+  background-color: transparent;
+  color: var(--periwinkle);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% - 238px);
+  letter-spacing: -1.20px;
+  line-height: 25.2px;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 0px;
+  width: auto;
+}
+
+.portifolio .im-a-full-stack-deve-Dfzyhx {
+  color: var(--periwinkle);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  left: calc(50.00% - 238px);
+  letter-spacing: -1.20px;
+  line-height: 25.2px;
+  top: 198px;
+  width: 321px;
+}
+
+.portifolio .hello-visitor-i-am-fernando-Dfzyhx {
+  background-color: transparent;
+  color: var(--periwinkle);
+  font-family: var(--font-family-albert_sans);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  height: auto;
+  left: calc(50.00% - 238px);
+  letter-spacing: -3.84px;
+  line-height: 76.8px;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 32px;
+  width: auto;
+}
+
+.portifolio .botao-scroll-D4z5JN {
+  height: 42px;
+  left: calc(50.00% - 341px);
+  position: absolute;
+  top: 362px;
+}
+
+.portifolio .scroll-down-2fpwbV {
+  background-color: transparent;
+  color: #646466;
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: 18.8px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% - 66px);
+  letter-spacing: -1.13px;
+  line-height: 23.6px;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 3.7514123916625977px 3.7514123916625977px #00000040;
+  top: 9px;
+  width: 96px;
+}
+
+.portifolio .arrow-1-2fpwbV {
+  background-color: transparent;
+  height: 16px;
+  left: calc(50.00% + 43px);
+  position: absolute;
+  top: 14px;
+  width: 15px;
+}
+
+.portifolio .icons-D4z5JN {
+  background-color: transparent;
+  height: 444px;
+  left: 50.00%;
+  position: absolute;
+  top: -3px;
+  width: 468px;
+}
+
+.portifolio .clip-path-group-2LBXcx {
+  background-color: transparent;
+  height: 444px;
+  left: calc(50.00% - 234px);
+  position: absolute;
+  top: 0px;
+  width: 468px;
+}
+
+.portifolio .topbar-P5xwPQ {
+  background-color: transparent;
+  height: 61px;
+  left: 0px;
+  position: absolute;
+  top: -1px;
+  width: 101.00%;
+}
+
+.portifolio .rectangle-99-PR5guL {
+  background-color: var(--white);
+  height: 61px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 99.01%;
+}
+
+.portifolio .fernando-PR5guL {
+  background-color: transparent;
+  color: var(--azure);
+  font-family: var(--font-family-advent_pro);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% - 69px);
+  letter-spacing: -0.80px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.portifolio .resume-PR5guL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% + 330px);
+  letter-spacing: -1.60px;
+  line-height: 25.2px;
+  position: absolute;
+  text-align: left;
+  top: 18px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.portifolio .contact-PR5guL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% + 233px);
+  letter-spacing: -1.60px;
+  line-height: 25.2px;
+  position: absolute;
+  text-align: left;
+  top: 18px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.portifolio .portifolio-PR5guL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 306px);
+  letter-spacing: -1.60px;
+  line-height: 25.2px;
+  position: absolute;
+  text-align: left;
+  top: 18px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.portifolio .experience-PR5guL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 424px);
+  letter-spacing: -1.20px;
+  line-height: 25.2px;
+  position: absolute;
+  text-align: left;
+  top: 18px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.portifolio .vector-14-PR5guL {
+  height: 2px;
+  left: calc(50.00% - 444px);
+  top: 56px;
+  width: 861px;
+}
+
+.portifolio .barra {
+  background-color: transparent;
+  height: 2px;
+  position: absolute;
+  width: 140px;
+}
+
+.portifolio .botao-scroll {
+  background-color: transparent;
+  width: 169px;
+}
+
+.portifolio .explore {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  position: absolute;
+}
+
+.portifolio .fundo {
+  height: 322px;
+  left: calc(50.00% - 160px);
+  position: absolute;
+  top: 13px;
+  width: 319px;
+}
+
+.portifolio .group-97 {
+  background-color: transparent;
+  height: 84px;
+  position: absolute;
+  top: 48px;
+  width: 87px;
+}
+
+.portifolio .group-98 {
+  background-color: transparent;
+  position: absolute;
+}
+
+.portifolio .im-a-full-stack-deve {
+  background-color: transparent;
+  height: auto;
+  position: absolute;
+  text-align: left;
+}
+
+.portifolio .image {
+  background-color: transparent;
+  position: absolute;
+}
+
+.portifolio .imagem {
+  background-color: transparent;
+  position: absolute;
+}
+
+.portifolio .input-field {
+  align-items: center;
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5295343995094299px;
+  border-color: var(--pumice);
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  display: flex;
+  gap: 5.29534387588501px;
+  position: relative;
+}
+
+.portifolio .rectangle-93 {
+  background-color: transparent;
+  height: 49px;
+  left: calc(50.00% - 88px);
+  position: absolute;
+  top: 0px;
+  width: 174px;
+}
+
+.portifolio .rectangle-94 {
+  border-radius: 4px 4px 0px 0px;
+  position: absolute;
+  top: 0px;
+}
+
+.portifolio .senai-cimatec {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 409px);
+  letter-spacing: -1.32px;
+  line-height: 27.7px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 152px;
+}
+
+.portifolio .tag {
+  background-color: transparent;
+  position: absolute;
+}
+
+.portifolio .text {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 12.6px;
+  position: absolute;
+  text-align: left;
+}
+
+.portifolio .texto {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 151px);
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: 70px;
+  width: 298px;
+}
+
+.portifolio .title {
+  background-color: transparent;
+  font-family: var(--font-family-albert_sans);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+  height: auto;
+  letter-spacing: -2.20px;
+  line-height: 24.0px;
+  position: absolute;
+  text-shadow: 0px 4px 4px #00000040;
+  width: auto;
+}
+
+.portifolio .titulo {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 151px);
+  line-height: 27.7px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 114px;
+}
+
+.portifolio .vector-14 {
+  background-color: transparent;
+  position: absolute;
+}
+
+.portifolio .vector-15 {
+  background-color: transparent;
+  height: 1px;
+  position: absolute;
+  top: 16px;
+}
