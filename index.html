@@ -1,511 +1,639 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1280, maximum-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="https://img.icons8.com/nolan/2x/f4-key.png" />
-    <meta name="og:type" content="website" />
-    <meta name="twitter:card" content="photo" />
-    <link rel="stylesheet" type="text/css" href="css/ova01-desktop.css" />
-    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href=" https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
-	<link rel="stylesheet" type="text/css" href="css/skills.css" />
-    <link rel="stylesheet" type="text/css" href="css/globals.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/experience.css" />
-    <link
+      <meta charset="utf-8" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/9203/9203620.png" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script> 
+   <script type="text/javascript" src="cssanimation-gsap.js"></script>
+   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-  <script type = "text/javascript" src = "https://cimatecead.senaicimatec.com.br/projects/js/animacaoscroll.js"></script>
-  <link rel="stylesheet" type="text/css" href="https://cimatecead.senaicimatec.com.br/projects/css/animacaoscroll.css" />
-    
-   
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/css.css" />
+    <link rel="stylesheet" type="text/css" href="css/portifolio.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
   </head>
-  <body style="margin: 0; background: #ffffff">
-    <input type="hidden" id="anPageName" name="page" value="ova01-desktop" />
-    <div class="ova01-desktop screen">
-      <div class="widget-wrapper-tQK5wE">
-        <img class="wallpaper2-1-7qzRzE" src="img/wallpaper2-1@1x.png" />
-        <script>
-          window.addEventListener("load", function () {
-            var image = document.querySelectorAll(".wallpaper2-1-7qzRzE");
-            new simpleParallax(image, {
-              orientation: "left",
-              scale: 1.9,
-              overflow: true,
-              delay: 0.3,
-              transition: "cubic-bezier(0,0,0.58,1)",
-            });
-          });
-        </script>
+  <body style="margin: 0">
+    <input type="hidden" id="anPageName" name="page" value="portifolio" />
+    <div class="portifolio screen">
 
-        
-      </div>
-      <div class="x6-tQK5wE" id="projects">
-        <div class="personal-I2BeRc concertone-normal-stiletto-25px reveal fade-top">Personal</div>
-        <div class="projects-I2BeRc concertone-normal-white-28px reveal fade-top" show-on-scroll>Projects</div>
-        <img class="line-1-I2BeRc reveal fade-top" src="img/line-1@2x.png" />
-        <div class="x04-I2BeRc concertone-normal-white-35px reveal fade-top">04</div>
-        <div class="clash-card project1 reveal fade-left">
-          <div class="clash-card__image clash-card__image--project1">
-            <img src="img/celularmeudef.png" />
-            
-          </div>
-          
-          <div class="clash-card__level clash-card__level--project1">Mobile</div>
-          <div class="clash-card__unit-name">Meu Menu</div>
-          <div class="clash-card__unit-description">
-            Mobile application, built in java, Android SDK, Photoshop CS6 and Intel XDK.
-          </div>
-        </div>
-        <div class="clash-card2 project2 reveal fade-right">
-          <div class="clash-card__image clash-card__image--project2">
-            <img src="img/OngInfoLogo.png"  />
-            
-          </div>
-          
-          <div class="clash-card__level clash-card__level--project1">Mobile</div>
-          <div class="clash-card__unit-name">Onginfo</div>
-          <div class="clash-card__unit-description">
-            Mobile application, built in java, Android SDK, Firebase
-          </div>
-        </div>
-      </div>
-      <div class="x5-tQK5wE" id="work">
-        <img class="line-1-8qT7UE reveal fade-top" src="img/line-1@2x.png" />
-        <div class="x03-8qT7UE concertone-normal-white-35px reveal fade-top">03</div>
-        <div class="experience-8qT7UE concertone-normal-stiletto-25px reveal fade-top">Experience</div>
-        <div class="education-work-8qT7UE concertone-normal-white-28px reveal fade-top" show-on-scroll>
-          Education/Work
-        </div>
 
-        <div id="container">
-          <div class="container_boxes reveal fade-bottom">
-              <!-- Card 1 -->
-              <div class="cardexp card_1" id="card1">
-                <h3>Senai Cimatec - <b style="color: orange;">Electrical Technology</b><h3> 
-                  <div class="namecurse"> Certificate </div>
-                    <h5>2014 - 2015</h5> 
-                    <div class="image-card" style="background-image: url('img/Cimatec.jpg')">
-                    </div>
-                  
-                  <p>Basic electricity </br> Electrical Circuits and Electrical Components
-                  </br>  Work rules and safety</p>
-                  
-                 <div class="button-hand">
-                  
-                  <div class="next" onclick="next()">NEXT</div></div>
-              </div>
-  
-              <!-- Card 2 -->
-              <div class="cardexp card_2" id="card2">
-                <h3>University Salvador - <b style="color: orange;">Computer Science</b><h3> 
-                 <div class="namecurse"> Bachelor's degree </div>
-                    <h5>2014 -- 2019</h5> 
-                    <div class="image-card" style="background-image: url('https://raw.githubusercontent.com/FernandoFabio/fernandofabio.github.io/main/img/Unifacs.jpg')">
-                    </div>
-                  
-                  <p>Coding [C, C++, C#, JS, PHP, JAVA, HTML.] </br> 
-                    Database and Web Security [SQL Server, Mysql, Oracle]
-                  </br> System Design [Photoshop, CSS, ADOBE]</br> Business Methodologies [Agile, Scrum, Design Thinking]</p>
-                  
-                 <div class="prev" onclick="prev()">PREV</div>
-                 <div class="button-hand">
-                  <div class="next" onclick="next()">NEXT</div></div>
-              </div>
-  
-              <!-- Card 3 -->
-              <div class="cardexp card_3" id="card3">
-                <h3>Hospital São Rafael - <b style="color: orange;">Back-End</b><h3> 
-                  <div class="namecurse"> Intern </div>
-                    <h5>2017 - 2019</h5> 
-                    <div class="image-card" style="background-image: url('img/Hospital.jpg')">
-                    </div>
-                  
-                  <p>Database [SQL, Oracle, Mysql] </br> Conducted lectures on the new electronic medical record
-                  </br>  Implemented electronic medical record [MVPEP]</br>Management financial software</p>
-                  
-                 <div class="prev" onclick="prev()">PREV</div>
-                 <div class="button-hand">
-                  <div class="next" onclick="next()">NEXT</div></div>
-              </div>
-  
-              <!-- Card 3 -->
-              <div class="cardexp card_4" id="card4">
-                <h3>Senai Cimatec - <b style="color: orange;">Full-Stack</b><h3> 
-                  <div class="namecurse"> Programmer </div> 
-                    <h5>2020 - 2022</h5> 
-                    <div class="image-card" style="background-image: url('img/Cimatec2.jpg')">
-                    </div>
-                   
-                  <p>Web/Mobile programmer [HTML, CSS, Javascript, Typescript, React, Vue.js, Figma] </br> Game Developer [Gdscript, Construct, C, Java, Unity, Godot, Tyrano builder]
-                  </br>  System Analyst [Microsoft Server, IIS, Postman, API-Rest, SQLServer, Xampp]</p>
-                  
-                 <div class="prev" onclick="prev()">PREV</div>
-                  
-              </div>
-  
-          </div>
+   <div class="part6-P5xwPQ" id="part6">
+  <div class="contact-me-PMrkCX albertsans-medium-scarpa-flow-36px">Contact me.</div>
+
+  <form class="input-area-PMrkCX" action="mailto:fernandofabio31@gmail.com" method="POST" enctype="text/plain">
+    
+    <div class="container-Hq0jWh">
+      <!-- Nome -->
+      <div class="input-field-FxwbQW input-field">
+        <label class="your-name-K5p9gQ inter-normal-storm-dust-12-7px">Your Name</label>
+        <input type="text" name="Name: " placeholder="" required
+               class="inter-normal-storm-dust-12-7px"
+               style="border: none; background: transparent; width: 100%; margin-top: 4px;">
       </div>
 
-      </div>
-      <div class="x4-tQK5wE" id="skills">
-        <div class="coding-73qmsX concertone-normal-stiletto-25px reveal fade-top">Coding</div>
-        <div class="skills-73qmsX reveal fade-top" show-on-scroll>Skills</div>
-		
-        <img class="line-1-73qmsX reveal fade-top" src="img/line-1@2x.png" />
-        <div class="x02-73qmsX concertone-normal-white-35px reveal fade-top">02</div>
-        <div class="frame-2-73qmsX"><div class="cards">
- 
-  <h1>Languages and Database</h1>
-  <div class="card card__one">
-    <div class="card__bg"></div>
-    <img class="card__img" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png" />
-    
-  </div>
-  <div class="card card__one">
-    <div class="card__bg"></div>
-    <img class="card__img" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png" />
-    
-  </div>
-  <div class="card card__one">
-    <div class="card__bg"></div>
-    <img class="card__img" src="https://cdn.icon-icons.com/icons2/1451/PNG/512/jsfolder_99356.png" />
-    
-  </div>
-  <div class="card card__one">
-    <div class="card__bg"></div>
-    <img class="card__img" src="https://cdn.icon-icons.com/icons2/3053/PNG/512/mysql_workbench_macos_bigsur_icon_189924.png" />
-    
-  </div>
-  <div class="card card__one">
-    <div class="card__bg"></div>
-    <img class="card__img" src="https://cdn.icon-icons.com/icons2/1495/PNG/512/godot_103035.png" />
-    
-  </div>
-  <div class="card card__one">
-    <div class="card__bg"></div>
-    <img class="card__img" src="https://cdn.icon-icons.com/icons2/2667/PNG/512/folder_react_icon_161285.png" />
-    
-  </div>
-  <div class="card card__one">
-    <div class="card__bg"></div>
-    <img class="card__img" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/nodejs_plain_logo_icon_146409.png" />
-    
-  </div>
-  <h1>Frameworks and Apps</h1>
-  <div class="card card__two">
-    <div class="card__bg"></div>
-    <img class="card__img" src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" />
-    
-	
-  </div>
-  <div class="card card__two">
-    <div class="card__bg"></div>
-    <img class="card__img" src="https://cdn.icon-icons.com/icons2/2429/PNG/512/figma_logo_icon_147289.png" />
-    
-	
-  </div>
-  <div class="card card__two">
-    <div class="card__bg"></div>
-    <img class="card__img" src="https://cdn.icon-icons.com/icons2/3053/PNG/512/postman_alt_macos_bigsur_icon_189814.png" />
-    
-	
-  </div>
-  <div class="card card__two">
-    <div class="card__bg"></div>
-    <img class="card__img" src="https://cdn.icon-icons.com/icons2/1381/PNG/512/xampp_94513.png" />
-    
-	
-  </div>
-  <div class="card card__two">
-    <div class="card__bg"></div>
-    <img class="card__img" src="https://cdn.icon-icons.com/icons2/3053/PNG/512/godot_macos_bigsur_icon_190137.png" />
-    
-	
-  </div>
-  <div class="card card__two">
-    <div class="card__bg"></div>
-    <img class="card__img" src="https://upload.wikimedia.org/wikipedia/commons/7/79/Construct_3_Logo.svg" />
-    
-	
-  </div>
-  <div class="card card__two">
-    <div class="card__bg"></div>
-    <img class="card__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCPJ8rOPRAduPnUrND4rgIYug_GFkc4a7uCdJbqJiwtn_UxwNmqBJKhTLYB_g6BaQN-Xo&usqp=CAU" />
-    
-	
-  </div>
- </br></br>
-  
-</div>
-</div>
-      </div>
-      <div class="about-me-tQK5wE smart-layers-pointers" id="about">
-        <img class="line-1-xfXzLG reveal fade-top" src="img/line-1@2x.png" />
-        <div class="x01-xfXzLG concertone-normal-white-35px reveal fade-top">01</div>
-    <div class="discover-xfXzLG concertone-normal-stiletto-25px reveal fade-top">Discover</div>
-        <div class="about-me-xfXzLG reveal fade-top" show-on-scroll>About Me</div>
-
-        <div class="cardme reveal fade-bottom">
-          
-          <div class="additional">
-            <img class="foto" src="img/foto-minha-1@2x.png" />
-            <div class="user-card">
-              <div class="level center">
-                Level 25
-              </div>
-              <div class="points center">
-                Front-End
-              </div>
-              
-            </div>
-            <div class="more-info">
-            </br>
-              <h1>Fernando Fábio</h1>
-            </br> </br>
-             
-              <div class="coords">
-                
-                <p style="color: #ffffff;">Hello, My name is Fernando Freire, I have a degree in System Analyst, I&#39;m a full-stack developer from
-                  Salvador Bahia, I&#39;m passionate about programming, always dedicated with affection for my work.</p>
-              </div>
-              <div class="stats">
-              
-                <div>
-                  <a style="color: #ffffff;" href="https://www.linkedin.com/in/fernando-fábio-0b7b1a14b/" target="_blank">
-                  <i class="fa fa-linkedin-square"></i>
-                </a>
-                </div>
-                <div>
-                  <a style="color: #ffffff;" href="mailto:fernandofabio31@gmail.com">
-                  <i class="fa fa-envelope"></i>
-                  </a>
-                </div>
-                
-                
-              </div>
-            </div>
-          </div>
-          <div class="general">
-            <h1>Fernando Fábio</h1>
-            <p>Hello, My name is Fernando Freire, I have a degree in System Analyst, I&#39;m a full-stack developer from
-              Salvador Bahia, I&#39;m passionate about programming, always dedicated with affection for my work.</p>
-            
-          </div>
-        </div>
-        
-        
-        
-      </div>
-     <div class="home-tQK5wE" id="home">
-        <div class="fernando-freire-J5xcTZ smart-layers-pointers animate-enter6">Fernando Freire</div>
-        <div class="full-stack-web-developer-J5xcTZ smart-layers-pointers animate-enter7">Full-Stack Web Developer</div>
-        <img class="line-1-J5xcTZ" src="img/line-1-3@2x.png" />
-        <div class="scroll-down-J5xcTZ concertone-normal-white-25px animate-enter8">Scroll Down</div>
-       <a href="#home"> <div class="home-J5xcTZ smart-layers-pointers concertone-normal-white-25px">Home</div></a>
-       <a href="#about"> <div class="about-J5xcTZ smart-layers-pointers concertone-normal-white-25px">About</div></a>
-        <a href="#skills"> <div class="skills-J5xcTZ smart-layers-pointers concertone-normal-white-25px">Skills</div></a>
-        <a href="#projects"> <div class="projects-J5xcTZ smart-layers-pointers concertone-normal-white-25px">Projects</div></a>
-        <a href="#work"> <div class="education-work-J5xcTZ smart-layers-pointers concertone-normal-white-25px">Education/Work</div></a>
-        <a href="css/Resume FernandoFabio (EN).pdf" target="_blank"><div class="frame-1-J5xcTZ">
-          <img class="rectangle-1-ACZu29 smart-layers-pointers" src="img/rectangle-1-1@2x.png" />
-          <div class="download-ACZu29 smart-layers-pointers">Download</div>
-        </div></a>
+      <!-- Email -->
+      <div class="input-field-8wqizr input-field">
+        <label class="email-address-dx3hJl inter-normal-storm-dust-12-7px">Email Address</label>
+        <input type="email" name="Email: " placeholder="" required
+               class="inter-normal-storm-dust-12-7px"
+               style="border: none; background: transparent; width: 100%; margin-top: 4px;">
       </div>
     </div>
-    <script>
-      function ShowOnScroll() {
-        this.toShow = [];
-        this.nextEventY = undefined;
-      }
 
-      ShowOnScroll.prototype.show = function (e) {
-        e.style.display = "";
-      };
+    <!-- Mensagem -->
+    <div class="input-field-Hq0jWh input-field">
+      <label class="message-LAJl2N inter-normal-storm-dust-12-7px">Message</label>
+      <textarea name="Message: " placeholder="" rows="4" required
+                class="inter-normal-storm-dust-12-7px"
+                style="border: none; background: transparent; width: 100%; resize: none; margin-top: 4px;"></textarea>
+    </div>
 
-      ShowOnScroll.prototype.hide = function (e) {
-        e.style.display = "none";
-      };
+    <!-- Botão -->
+    <div class="botao-scroll-Hq0jWh botao-scroll" style="cursor: pointer;">
+      <button type="submit" style="all: unset; display: flex; flex-direction: column; align-items: center;">
+        <img class="rectangle-93" src="img/rectangle-93@2x.png" alt="Send" />
+        <div class="send-message-zJx8mI">Send Message</div>
+      </button>
+    </div>
+  </form>
+</div>
 
-      ShowOnScroll.prototype.getTop = function (e) {
-        if (e.Top != undefined && e.Top != 0) {
-          return e.Top;
-        }
-        var top = 0;
-        var iter = e;
-        do {
-          top += iter.offsetTop || 0;
-          iter = iter.offsetParent;
-        } while (iter);
-        e.Top = top;
-        return top;
-      };
 
-      ShowOnScroll.prototype.onScroll = function () {
-        var screenBottom = window.pageYOffset + window.innerHeight;
-        if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
-          return;
-        }
-        this.nextEventY = undefined;
-        for (var i = 0; i < this.toShow.length; i++) {
-          var e = this.toShow[i];
-          var top = this.getTop(e);
-          if (top < screenBottom) {
-            this.show(e);
-            this.toShow.shift();
-            i--;
-          } else {
-            this.nextEventY = top;
-            break;
-          }
-        }
-      };
 
-      ShowOnScroll.prototype.resetScrolling = function () {
-        // Clear state
-        var screenBottom = window.pageYOffset + window.innerHeight;
-        for (var i = 0; i < this.toShow.length; i++) {
-          var e = this.toShow[i];
-          this.show(e);
-        }
-        this.toShow = [];
-        this.nextEventY == undefined;
 
-        // Collect items
-        var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
-        itemsToShowOnScroll = itemsToShowOnScroll.filter(function (e) {
-          return e.getAttribute("show-on-scroll") != undefined;
-        });
-        var getTop = this.getTop;
-        itemsToShowOnScroll.sort(function (a, b) {
-          return getTop(a) - getTop(b);
-        });
-        for (var i = 0; i < itemsToShowOnScroll.length; i++) {
-          var e = itemsToShowOnScroll[i];
-          var top = this.getTop(e);
-          if (top < screenBottom) {
-            continue;
-          }
-          this.toShow.push(e);
-          this.hide(e);
-          this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
-        }
-      };
 
-      ShowOnScroll.prototype.handleEvent = function (e) {
-        switch (e.type) {
-          case "scroll":
-            this.onScroll();
-            break;
-          case "resize":
-            this.resetScrolling();
-            break;
-        }
-      };
-
-      ShowOnScroll.prototype.init = function () {
-        this.resetScrolling();
-        window.addEventListener("scroll", this);
-        window.addEventListener("resize", this);
-      };
-
-      // After anima-src
-      setTimeout(function () {
-        var instShowOnScroll = new ShowOnScroll();
-        instShowOnScroll.init();
-      }, 250);
-    </script>
-	<script>
-	const cards = document.querySelector(".cards");
-const images = document.querySelectorAll(".card__img");
-const backgrounds = document.querySelectorAll(".card__bg");
-const range = 40;
-
-// const calcValue = (a, b) => (((a * 100) / b) * (range / 100) -(range / 2)).toFixed(1);
-const calcValue = (a, b) => (a/b*range-range/2).toFixed(1) // thanks @alice-mx
-
-let timeout;
-document.addEventListener('mousemove', ({x, y}) => {
-  if (timeout) {
-    window.cancelAnimationFrame(timeout);
-  }
-  	
-  timeout = window.requestAnimationFrame(() => {
-    const yValue = calcValue(y, window.innerHeight);
-    const xValue = calcValue(x, window.innerWidth);
-
-    cards.style.transform = `rotateX(${yValue}deg) rotateY(${xValue}deg)`;
-
-    [].forEach.call(images, (image) => {
-      image.style.transform = `translateX(${-xValue}px) translateY(${yValue}px)`;
-    });
-
-    [].forEach.call(backgrounds, (background) => {
-      background.style.backgroundPosition = `${xValue*.45}px ${-yValue*.45}px`;
-    })
-	})
-}, false);
-</script>
-<script>
-  // Cards
-  let card1 = document.getElementById("card1"),
-            card2 = document.getElementById("card2"),
-            card3 = document.getElementById("card3"),
-            card4 = document.getElementById("card4"),
-            card_length = document.querySelectorAll(".cardexp");
-
-        // container
-        let container = document.getElementById("container");
-
-        // Card List
-        let card_list = [card1, card2, card3, card4];
-
-        // next function
-        let counter = 1;
-        function next() {
-            console.log("next:" + counter)
-            if (counter < card_length.length) {
-                card_list[counter].classList.add("active");
-                backgroundFunc(counter);
-                counter += 1;
-            }
-            else {
-                counter = card_length.length;
-            }
-        }
-
-        function prev() {
-            if (counter > 1) {
-                card_list[counter - 1].classList.remove("active");
-                counter -= 1;
-            }
-            else {
-                counter = 1;
-            }
-            backgroundFunc(counter-1);
-            console.log("prev:" + counter)
-        }
-        
-        // background function
-        function backgroundFunc(x) {
-            if (x == 0) {
-                container.style.background = "transparent";
-            }
-            else if (x == 1) {
-                container.style.background = "transparent";
-            }
-            else if (x == 2) {
-                container.style.background = "transparent";
-            }
-            else if (x == 3) {
-                container.style.background = "transparent"
-            }
-        }
-
-</script>
+      <div class="part5-P5xwPQ" id="part5">
+        <div class="experience-and-education-qmVlV4 albertsans-medium-scarpa-flow-36px">Experience and Education</div>
+        <div class="frame-101-qmVlV4 scroll">
+          <div class="exp1-04qBpO">
+            <div class="senai-cimatec plusjakartasans-normal-storm-dust-22px">Senai Cimatec</div>
+            <img class="vector-14-U7kM0W vector-14" src="img/vector-14@2x.png" alt="Vector 14" />
+            <div class="group-98-U7kM0W group-98">
+              <div class="software-engineer-24coIX plusjakartasans-normal-storm-dust-14px">Software engineer</div>
+              <div class="x2021-2025-24coIX plusjakartasans-normal-storm-dust-14px">2021 - 2025¨</div>
+            </div>
+            <p class="full-time-developer-U7kM0W plusjakartasans-normal-storm-dust-14px">
+              Full-time developer specializing in digital games and web/mobile applications using technologies like
+              Unity, Godot, React, and Vue.js. Experienced in backend systems and infrastructure with PHP, Microsoft
+              Server, REST APIs, and SQL Server. Also proficient with Canvas LMS and design tools like Figma. Developed
+              hundreds of interactive materials and educational web pages to support the university&#39;s digital
+              learning initiatives.
+            </p>
+            <img class="vector-15-U7kM0W vector-15" src="img/vector-15.png" alt="Vector 15" />
+            <img class="group-97-U7kM0W group-97" src="img/group-97@2x.png" alt="Group 97" />
+          </div>
+          <div class="exp2-04qBpO">
+            <div class="university-of-salvador-Nk9z9q plusjakartasans-normal-storm-dust-22px">
+              University of salvador
+            </div>
+            <img class="vector-14-Nk9z9q vector-14" src="img/vector-14@2x.png" alt="Vector 14" />
+            <div class="group-98-Nk9z9q group-98">
+              <p class="bachelors-degree-in-Ufu7S9 plusjakartasans-normal-storm-dust-14px">
+                Bachelor&#39;s Degree in Science in Computer Engineering
+              </p>
+              <div class="x2014-2019-Ufu7S9 plusjakartasans-normal-storm-dust-14px">2014 - 2019</div>
+            </div>
+            <p class="graduated-with-a-str-Nk9z9q plusjakartasans-normal-storm-dust-14px">
+              Graduated with a strong foundation in software development and system analysis, programming in languages
+              such as C, C++, C#, JavaScript, PHP, Java, and HTML. Gained solid experience in database design and
+              management using SQL Server, MySQL, and Oracle. Developed knowledge in data security, including encryption
+              practices to ensure information confidentiality. Experienced in system design, utilizing tools like
+              Photoshop and CSS to create user-friendly and visually appealing interfaces. Participated in full software
+              development lifecycles through methodologies like Design Thinking and Scrum, aligning technical solutions
+              with business goals.
+            </p>
+            <img class="vector-15-Nk9z9q vector-15" src="img/vector-15-1.png" alt="Vector 15" />
+            <img class="group-97-Nk9z9q group-97" src="img/group-97-1@2x.png" alt="Group 97" />
+          </div>
+          <div class="exp3-04qBpO">
+            <div class="hospital-so-rafael-bdCcm8 plusjakartasans-normal-storm-dust-22px">Hospital São Rafael</div>
+            <img class="vector-14-bdCcm8 vector-14" src="img/vector-14@2x.png" alt="Vector 14" />
+            <div class="group-98-bdCcm8 group-98">
+              <div class="systems-intern-zZFifV plusjakartasans-normal-storm-dust-14px">Systems Intern</div>
+              <div class="x2017-2019-zZFifV plusjakartasans-normal-storm-dust-14px">2017 - 2019</div>
+            </div>
+            <p class="provided-support-in-bdCcm8 plusjakartasans-normal-storm-dust-14px">
+              Provided support in database management with SQL optimization for Oracle and MySQL. Participated in the
+              integration and support of EMR systems like MVPEP, improving clinical data access. Conducted user training
+              to enhance system usage. Also contributed to medical profile analysis and system troubleshooting,
+              proposing tailored technical solutions.
+            </p>
+            <img class="vector-15-bdCcm8 vector-15" src="img/vector-15-2.png" alt="Vector 15" />
+            <img class="group-97-bdCcm8 group-97" src="img/group-97-2@2x.png" alt="Group 97" />
+          </div>
+          <div class="exp4-04qBpO">
+            <div class="senai-cimatec plusjakartasans-normal-storm-dust-22px">Senai Cimatec</div>
+            <img class="vector-14-A4GMV6 vector-14" src="img/vector-14@2x.png" alt="Vector 14" />
+            <div class="group-98-A4GMV6 group-98">
+              <div class="technical-in-electrotechnics-BSuy8D plusjakartasans-normal-storm-dust-14px">
+                Technical&nbsp;&nbsp;in Electrotechnics
+              </div>
+              <div class="x2014-2015-BSuy8D plusjakartasans-normal-storm-dust-14px">2014 - 2015</div>
+            </div>
+            <p class="completed-a-technica-A4GMV6 plusjakartasans-normal-storm-dust-14px">
+              Completed a technical program focused on electrotechnics with solid training in basic electricity,
+              electric current principles, and circuit theory. Developed hands-on experience with series, parallel, and
+              mixed electrical circuits, using components such as resistors, capacitors, and inductors. Gained
+              familiarity with safety standards and regulations, ensuring safe and compliant practices in electrical
+              installations and maintenance.
+            </p>
+            <img class="vector-15-A4GMV6 vector-15" src="img/vector-15.png" alt="Vector 15" />
+            <img class="group-97-A4GMV6 group-97" src="img/group-97-3@2x.png" alt="Group 97" />
+          </div>
+        </div>
+      </div>
+      <div class="part4-P5xwPQ" id="part4">
+        <div class="my-projects-OEvgHx">My Projects</div>
+        <p class="this-is-a-list-of-pr-OEvgHx">This is a list of project i made in my profissional area.</p>
+        <div class="frame-3784-OEvgHx scroll">
+          <div class="card1-rMA9qV">
+            <div class="fundo-2jwjlU fundo"></div>
+            <img class="image-2jwjlU image" src="img/image@2x.png" alt="image" />
+            <img class="barra-2jwjlU barra" src="img/barra@2x.png" alt="Barra" />
+            <p class="title-2jwjlU title">Globe Explorers<br />Nasa Space Apps Winner</p>
+            <p class="text-2jwjlU text plusjakartasans-normal-black-10px">
+              GLOBE Explorer is a 3D exploration game and winner of NASA Space Apps.<br />
+              The game brings the GLOBE program to life, allowing players to monitor environmental changes through real
+              scientific observation.<br />
+              Switch between specialized characters, explore a scientific site, and apply the correct GLOBE protocols to
+              complete NASA-inspired missions.
+            </p>
+            <div class="explore-2jwjlU explore plusjakartasans-normal-black-10px">
+              <a href="https://oceancode4.github.io/GlobeExplorers/" target="_blank">Explore&nbsp;&nbsp;→</a>
+            </div>
+            <div class="tag-2jwjlU tag">
+              <div class="rectangle-94-SXCSrx rectangle-94"></div>
+              <div class="explore-SXCSrx explore plusjakartasans-normal-ebb-8px">Javascript</div>
+            </div>
+            <div class="tag-AAcCNp tag">
+              <div class="rectangle-94-E8UA73 rectangle-94"></div>
+              <div class="explore-E8UA73 explore plusjakartasans-normal-ebb-8px">C#</div>
+            </div>
+            <div class="tag-lmjj7o tag">
+              <div class="rectangle-94-I4wvLL rectangle-94"></div>
+              <div class="explore-I4wvLL explore plusjakartasans-normal-ebb-8px">Unity</div>
+            </div>
+          </div>
+          <div class="card2-rMA9qV">
+            <div class="fundo-YXTa3x fundo"></div>
+            <img class="imagem-YXTa3x imagem" src="img/imagem@2x.png" alt="Imagem" />
+            <img class="barra-YXTa3x barra" src="img/barra-1@2x.png" alt="Barra" />
+            <div class="title-YXTa3x title">Maria A Life’s Journey</div>
+            <p class="text-YXTa3x text plusjakartasans-normal-scarpa-flow-10px">
+              &#34;Maria: A Life’s Journey&#34; is a narrative game with puzzle elements, built in Unity. The player
+              experiences the life of Maria through beautifully illustrated scenes, and at key moments in the story,
+              must piece together important memories using classic puzzle mechanics.
+            </p>
+            <div class="explore-YXTa3x explore plusjakartasans-normal-scarpa-flow-10px">
+              <a href="https://oz-digital-games.itch.io/maria-a-jornada-de-uma-vida" target="_blank">Explore&nbsp;&nbsp;→</a>
+            </div>
+            <div class="tag-YXTa3x tag">
+              <div class="rectangle-94-5tNu5N rectangle-94"></div>
+              <div class="explore-5tNu5N explore plusjakartasans-normal-ebb-8px">C#</div>
+            </div>
+            <div class="tag-hlft7A tag">
+              <div class="rectangle-94-Fy4y8t rectangle-94"></div>
+              <div class="explore-Fy4y8t explore plusjakartasans-normal-ebb-8px">Unity</div>
+            </div>
+          </div>
+          <div class="card3-rMA9qV">
+            <img class="fundo-ElsQxu fundo" src="img/fundo@2x.png" alt="Fundo" />
+            <img class="imagem-ElsQxu imagem" src="img/imagem-1@2x.png" alt="Imagem" />
+            <img class="barra-ElsQxu barra" src="img/barra-2@2x.png" alt="Barra" />
+            <div class="title-ElsQxu title">Celestial Captures</div>
+            <p class="text-ElsQxu text plusjakartasans-normal-periwinkle-10px">
+              Celestial Captures is a relaxing photography website built with simple HTML, JavaScript, and a direct
+              connection to NASA’s Photo of the Day API.<br />
+              Explore space, capture stunning celestial moments, and enjoy a calm, immersive experience that combines
+              creativity and real astronomical data.
+            </p>
+            <div class="explore-ElsQxu explore plusjakartasans-normal-periwinkle-10px">
+              <a href="https://fernandofabio.github.io/Celestial-Captures/" target="_blank">Explore&nbsp;&nbsp;→</a>
+            </div>
+            <div class="tag-ElsQxu tag">
+              <div class="rectangle-94-kcXGoK rectangle-94"></div>
+              <div class="explore-kcXGoK explore plusjakartasans-normal-ebb-8px">Javascript</div>
+            </div>
+            <div class="tag-IS7ZvJ tag">
+              <div class="rectangle-94-O26eHz rectangle-94"></div>
+              <div class="explore-O26eHz explore plusjakartasans-normal-ebb-8px">Html</div>
+            </div>
+            <div class="tag-yilaT8 tag">
+              <div class="rectangle-94-cTLHQz rectangle-94"></div>
+              <div class="explore-cTLHQz explore plusjakartasans-normal-ebb-8px">Css</div>
+            </div>
+          </div>
+          <div class="card4-rMA9qV">
+            <img class="fundo-bxyAiz fundo" src="img/fundo-1@2x.png" alt="Fundo" />
+            <img class="imagem-bxyAiz imagem" src="img/imagem-2@2x.png" alt="Imagem" />
+            <img class="barra-bxyAiz barra" src="img/barra-3@2x.png" alt="Barra" />
+            <div class="title-bxyAiz title">Planner Night Mode</div>
+            <p class="text-bxyAiz text plusjakartasans-normal-periwinkle-10px">
+              A JavaScript-based extension to enhance Microsoft Planner&#39;s visibility by transforming task color
+              palettes into darker, more accessible tones.<br />
+              Published on the Google Chrome Web Store, this tool improves readability and user experience for
+              professionals who rely on Planner for daily task tracking.
+            </p>
+            <div class="explore-bxyAiz explore plusjakartasans-normal-periwinkle-10px">
+              <a href="https://chromewebstore.google.com/detail/planner-night-mode/ajajpbalghhlmcfjccdppenpoohckkal" target="_blank">Explore&nbsp;&nbsp;→</a>
+            </div>
+            <div class="tag-bxyAiz tag">
+              <div class="rectangle-94-BCq0LS rectangle-94"></div>
+              <div class="explore-BCq0LS explore plusjakartasans-normal-ebb-8px">Javascript</div>
+            </div>
+          </div>
+          <div class="card5-rMA9qV">
+            <img class="fundo-rX5L7i fundo" src="img/fundo-2@2x.png" alt="Fundo" />
+            <img class="imagem-rX5L7i imagem" src="img/imagem-3@2x.png" alt="Imagem" />
+            <img class="barra-rX5L7i barra" src="img/barra-4@2x.png" alt="Barra" />
+            <div class="title-rX5L7i title">Scrum The Game</div>
+            <p class="text-rX5L7i text">
+              SCRUM THE GAME is a 2D game built in Unity using C#, designed to simulate agile project management in a
+              fun and interactive way.<br />
+              Players manage sprints, assemble teams, and optimize resources while learning the core principles of
+              Scrum.
+            </p>
+            <div class="explore-rX5L7i explore">
+              <a href="https://cimatecead.senaicimatec.com.br/arquivos/games/scrumthegame/" target="_blank">Explore&nbsp;&nbsp;→</a>
+            </div>
+            <div class="tag-rX5L7i tag">
+              <div class="rectangle-94-21ohWp rectangle-94"></div>
+              <div class="explore-21ohWp explore plusjakartasans-normal-ebb-8px">Javascript</div>
+            </div>
+            <div class="tag-brGScz tag">
+              <div class="rectangle-94-CKQVsk rectangle-94"></div>
+              <div class="explore-CKQVsk explore plusjakartasans-normal-ebb-8px">C#</div>
+            </div>
+            <div class="tag-kh9mQ5 tag">
+              <div class="rectangle-94-I44PKS rectangle-94"></div>
+              <div class="explore-I44PKS explore plusjakartasans-normal-ebb-8px">Unity</div>
+            </div>
+          </div>
+          <div class="card6-rMA9qV">
+            <img class="fundo-TNBeRb fundo" src="img/fundo-3@2x.png" alt="Fundo" />
+            <img class="imagem-TNBeRb imagem" src="img/imagem-4@2x.png" alt="Imagem" />
+            <img class="barra-TNBeRb barra" src="img/barra-5@2x.png" alt="Barra" />
+            <div class="title-TNBeRb title">Words of power</div>
+            <p class="text-TNBeRb text plusjakartasans-normal-scarpa-flow-10px">
+              An RPG developed in RPG Maker using JavaScript, designed as an educational platform where players embark
+              on a classic RPG adventure while learning proper word usage and spelling. The game blends fun with
+              learning, making education more interactive and engaging.
+            </p>
+            <div class="explore-TNBeRb explore plusjakartasans-normal-scarpa-flow-10px">
+              <a href="https://cimatecead.senaicimatec.com.br/arquivos/games/palavras-de-poder/" target="_blank">Explore&nbsp;&nbsp;→</a>
+            </div>
+            <div class="tag-TNBeRb tag">
+              <div class="rectangle-94-Dafjx0 rectangle-94"></div>
+              <div class="explore-Dafjx0 explore plusjakartasans-normal-ebb-8px">Javascript</div>
+            </div>
+          </div>
+          <div class="card7-rMA9qV">
+            <img class="fundo-YXnohh fundo" src="img/fundo-4@2x.png" alt="Fundo" />
+            <img class="image-YXnohh image" src="img/image-1@2x.png" alt="image" />
+            <img class="barra-YXnohh barra" src="img/barra-6@2x.png" alt="Barra" />
+            <div class="title-YXnohh title">CONAMA Resolutions</div>
+            <p class="text-YXnohh text">
+              A visual novel developed in Tyrano Builder with JavaScript, designed as an educational platform.<br />
+              Through an engaging narrative and captivating characters, the game explores key environmental education
+              topics, making learning immersive and interactive.
+            </p>
+            <div class="explore-YXnohh explore">
+              <a href="https://cimatecead.senaicimatec.com.br/disciplinas/meio-ambiente-sustentabilidade/ua-02/game-02/" target="_blank">Explore&nbsp;&nbsp;→</a>
+            </div>
+            <div class="tag-YXnohh tag">
+              <div class="rectangle-94-9glAhs rectangle-94"></div>
+              <div class="explore-9glAhs explore plusjakartasans-normal-ebb-8px">Javascript</div>
+            </div>
+          </div>
+          <div class="card8-rMA9qV">
+            <img class="fundo-sETwzj fundo" src="img/fundo-5@2x.png" alt="Fundo" />
+            <img class="image-sETwzj image" src="img/image-2@2x.png" alt="image" />
+            <img class="barra-sETwzj barra" src="img/barra-7@2x.png" alt="Barra" />
+            <div class="title-sETwzj title">ONGINFO</div>
+            <p class="text-sETwzj text">
+              Final graduation project focused on the development of a mobile application using Android Studio, aimed at
+              supporting social causes for the care of abandoned animals.<br />
+              The app connects users with local shelters and promotes adoption, donations, and animal welfare awareness.
+            </p>
+            <div class="explore-sETwzj explore">
+              <a href="https://www.linkedin.com/in/fernandofabio/overlay/1635456385919/single-media-viewer/?profileId=ACoAACRLiQsBgmWOUFEwp9Bi4XPErz7_b18Ff1o" target="_blank">Explore&nbsp;&nbsp;→</a>
+            </div>
+            <div class="tag-sETwzj tag">
+              <div class="rectangle-94-eGZ6Wk rectangle-94"></div>
+              <div class="explore-eGZ6Wk explore plusjakartasans-normal-ebb-8px">Java</div>
+            </div>
+          </div>
+          <div class="card9-rMA9qV">
+            <img class="fundo-fWLaAp fundo" src="img/fundo-6@2x.png" alt="Fundo" />
+            <img class="image-fWLaAp image" src="img/image-3@2x.png" alt="image" />
+            <img class="barra-fWLaAp barra" src="img/barra-8@2x.png" alt="Barra" />
+            <div class="title-fWLaAp title">MeuMenu</div>
+            <p class="text-fWLaAp text plusjakartasans-normal-black-10px">
+              Meu Menu is a mobile application developed using Android Studio and Java, focused on calorie tracking,
+              healthy eating, and cooking guidance.<br />
+              Created for the ARTHE Project at university, the app supports nutritional re-education through practical
+              and accessible features.
+            </p>
+            <div class="explore-fWLaAp explore plusjakartasans-normal-black-10px">
+              <a href="https://www.youtube.com/watch?v=wiDKZRr4g5I" target="_blank">Explore&nbsp;&nbsp;→</a>
+            </div>
+            <div class="tag-fWLaAp tag">
+              <div class="rectangle-94-x00APl rectangle-94"></div>
+              <div class="explore-x00APl explore plusjakartasans-normal-ebb-8px">Java</div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="frame-3784-botao d-flex justify-content-center mt-3 gap-2">
+  
+   <img style="cursor: pointer;" id="scrollLeft" src="img/BotaoScrollesq.png" alt="Left Arrow" style="width: 44px; height: 42px;">
+  
+  
+    <img style="cursor: pointer;" id="scrollRight" src="img/BotaoScrolldir.png" alt="Left Arrow" style="width: 44px; height: 42px;">
+ 
+</div>
+      </div>
+      <div class="part3-P5xwPQ">
+        <div class="frame-97-7nxgtr scroll">
+          <img class="q01-5ZFSXI" src="img/q01@2x.png" alt="Q01" />
+          <img class="q02-5ZFSXI" src="img/q02@2x.png" alt="Q02" />
+          <img class="q03-5ZFSXI" src="img/q03@2x.png" alt="Q03" />
+          <img class="q04-5ZFSXI" src="img/q04@2x.png" alt="Q04" />
+          <img class="q05-5ZFSXI" src="img/q05@2x.png" alt="Q05" />
+          <img class="q06-5ZFSXI" src="img/q06@2x.png" alt="Q06" />
+          <img class="q07-5ZFSXI" src="img/q07@2x.png" alt="Q07" />
+          <img class="q08-5ZFSXI" src="img/q08@2x.png" alt="Q08" />
+          <img class="q09-5ZFSXI" src="img/q09@2x.png" alt="Q09" />
+          <img class="q10-5ZFSXI" src="img/q10@2x.png" alt="Q10" />
+          <img class="q11-5ZFSXI" src="img/q11@2x.png" alt="Q11" />
+          <img class="q12-5ZFSXI" src="img/q12@2x.png" alt="Q12" />
+          <img class="q13-5ZFSXI" src="img/q14@2x.png" alt="Q13" />
+          <img class="q14-5ZFSXI" src="img/q13@2x.png" alt="Q14" />
+        </div>
+        <div class="t14-7nxgtr">
+          <div class="titulo-xErW1y titulo plusjakartasans-normal-periwinkle-22px">Java</div>
+          <p class="texto-xErW1y texto plusjakartasans-normal-periwinkle-14px">
+            With Java, I’ve developed logic-based applications, mobile prototypes, and game mechanics in academic and
+            experimental contexts. I understand object-oriented principles deeply and apply them to design scalable and
+            efficient Java solutions.
+          </p>
+        </div>
+        <div class="t13-7nxgtr">
+          <div class="titulo-xJEDWi titulo plusjakartasans-normal-periwinkle-22px">Node.js</div>
+          <p class="texto-xJEDWi texto plusjakartasans-normal-periwinkle-14px">
+            Node.js is a key part of my backend toolkit. I’ve used it to build REST APIs, command-line tools, and
+            integrate server-side logic in full-stack applications. I’m also familiar with deploying Node apps and
+            working with npm-based workflows.
+          </p>
+        </div>
+        <div class="t12-7nxgtr">
+          <div class="titulo-oxmFwm titulo plusjakartasans-normal-periwinkle-22px">Vegas Pro</div>
+          <p class="texto-oxmFwm texto plusjakartasans-normal-periwinkle-14px">
+            I use Vegas Pro for editing gameplay footage, trailers, and tutorials. My workflow includes audio balancing,
+            transitions, motion effects, and exporting high-quality videos for educational and promotional use,
+            enhancing the communication of our projects.
+          </p>
+        </div>
+        <div class="t11-7nxgtr">
+          <div class="titulo-59IHFx titulo plusjakartasans-normal-periwinkle-22px">PHP</div>
+          <p class="texto-59IHFx texto plusjakartasans-normal-periwinkle-22px">
+            <span class="span0-Rl77ZY plusjakartasans-normal-periwinkle-22px">&nbsp;</span
+            ><span class="span1-Rl77ZY plusjakartasans-normal-periwinkle-14px"
+              >I’ve used PHP in multiple backend projects and built an entire IIS + PHP server environment at work. My
+              experience includes building RESTful APIs, handling form submissions, session management, and integrating
+              PHP into educational tools and dashboards.</span
+            >
+          </p>
+        </div>
+        <div class="t10-7nxgtr">
+          <div class="titulo-X1qd3U titulo plusjakartasans-normal-periwinkle-22px">Git</div>
+          <p class="texto-X1qd3U texto plusjakartasans-normal-periwinkle-14px">
+            I use Git daily for version control and collaboration. From managing codebases across game and web projects
+            to participating in team workflows with GitHub and GitLab, I ensure safe and organized development through
+            branching, merging, and CI/CD practices.
+          </p>
+        </div>
+        <div class="t09-7nxgtr">
+          <div class="titulo-6dZubE titulo plusjakartasans-normal-periwinkle-22px">Postman</div>
+          <p class="texto-6dZubE texto plusjakartasans-normal-periwinkle-14px">
+            Postman is one of my go-to tools for testing and documenting APIs. I use it frequently to validate
+            endpoints, automate testing processes, and collaborate with backend teams during development and integration
+            phases of web systems.
+          </p>
+        </div>
+        <div class="t08-7nxgtr">
+          <div class="titulo-mPzP0j titulo plusjakartasans-normal-periwinkle-22px">HTML</div>
+          <p class="texto-mPzP0j texto plusjakartasans-normal-periwinkle-14px">
+            I’ve used HTML as the backbone of countless web applications and learning modules. I structure clean,
+            semantic markup that integrates with CSS, JavaScript, and frameworks like React and Vue to create modern,
+            accessible web solutions.
+          </p>
+        </div>
+        <div class="t07-7nxgtr">
+          <div class="titulo-SobsVw titulo plusjakartasans-normal-periwinkle-22px">CSS</div>
+          <p class="texto-SobsVw texto plusjakartasans-normal-periwinkle-14px">
+            CSS is a key part of my web development process. I’ve used it to style hundreds of responsive pages,
+            ensuring that every digital product looks sharp and functions smoothly across devices. I focus on
+            maintainability and clean design principles.
+          </p>
+        </div>
+        <div class="t06-7nxgtr">
+          <div class="titulo-i2fce2 titulo plusjakartasans-normal-periwinkle-22px">SQL</div>
+          <p class="texto-i2fce2 texto plusjakartasans-normal-periwinkle-22px">
+            <span class="span0-t4bpfi plusjakartasans-normal-periwinkle-22px">&nbsp;</span
+            ><span class="span1-t4bpfi plusjakartasans-normal-periwinkle-14px"
+              >I have strong experience with SQL, working extensively with MySQL and SQL Server to design, query, and
+              optimize relational databases. From managing student data to powering backend systems, I ensure data
+              integrity and efficiency in every project.</span
+            >
+          </p>
+        </div>
+        <div class="t05-7nxgtr">
+          <div class="titulo-ANLNvu titulo plusjakartasans-normal-periwinkle-22px">Figma</div>
+          <p class="texto-ANLNvu texto plusjakartasans-normal-periwinkle-14px">
+            I use Figma daily in my workflow to design user interfaces, prototype interactivity, and collaborate with
+            teams. It plays a central role in shaping intuitive digital experiences that align with branding and
+            accessibility goals in our educational projects.
+          </p>
+        </div>
+        <div class="t04-7nxgtr">
+          <div class="titulo-YV30ux titulo plusjakartasans-normal-periwinkle-22px">Vue.js</div>
+          <p class="texto-YV30ux texto plusjakartasans-normal-periwinkle-14px">
+            Vue.js has been an essential tool in my frontend toolkit for creating modular, reactive interfaces. I&#39;ve
+            applied it in projects focused on usability and speed, integrating seamlessly with REST APIs and ensuring a
+            smooth user experience across devices.
+          </p>
+        </div>
+        <div class="t03-7nxgtr">
+          <div class="titulo-kjXJws titulo plusjakartasans-normal-periwinkle-22px">React</div>
+          <p class="texto-kjXJws texto plusjakartasans-normal-periwinkle-22px">
+            <span class="span0-GNx4RK plusjakartasans-normal-periwinkle-22px">&nbsp;</span
+            ><span class="span1-GNx4RK plusjakartasans-normal-periwinkle-14px"
+              >I’ve developed numerous interactive interfaces and responsive web applications using React. With a strong
+              command of component-based architecture, I use React to create scalable, maintainable user experiences for
+              both educati onal platforms and internal systems.</span
+            >
+          </p>
+        </div>
+        <div class="t02-7nxgtr">
+          <div class="titulo-VnhRrt titulo plusjakartasans-normal-periwinkle-22px">Unity</div>
+          <p class="texto-VnhRrt texto plusjakartasans-normal-periwinkle-14px">
+            I’ve built multiple game projects using Unity with C#, ranging from educational 2D platforms to multiplayer
+            3D experiences. I have deep knowledge of Unity’s engine, physics, animation, and UI systems, applying them
+            in real-time environments for interactive learning and entertainment.
+          </p>
+        </div>
+        <div class="t01-7nxgtr">
+          <div class="titulo-xectyw titulo plusjakartasans-normal-periwinkle-22px">Javascript</div>
+          <p class="texto-xectyw texto plusjakartasans-normal-periwinkle-14px">
+            I’ve used JavaScript in thousands of projects throughout my career. I have extensive experience with this
+            powerful programming language, applying it in a wide range of use cases — from creating dynamic, interactive
+            environments to building seamless web interactions.
+          </p>
+        </div>
+        <div class="my-skills-7nxgtr">My Skills</div>
+      </div>
+      <div class="part2-P5xwPQ">
+        <div class="group-95-2OGcvM">
+          <p class="numbers-lead-to-code-l4TNtw albertsans-medium-scarpa-flow-36px">
+            Numbers lead to code. Code turns into stories.
+          </p>
+          <div class="about-me-l4TNtw plusjakartasans-normal-storm-dust-22px">About-me</div>
+          <div class="my-goal-l4TNtw plusjakartasans-normal-storm-dust-22px">My goal</div>
+          <p class="im-a-full-stack-deve-l4TNtw im-a-full-stack-deve plusjakartasans-normal-storm-dust-14px">
+            I’m a Full-Stack Developer and Game Designer with a background in Software Engineering and a degree in
+            Computer Programming – Specific Applications.<br />
+            I’m also experienced in game development&nbsp;&nbsp;always&nbsp;&nbsp;bringing interactive ideas to life.
+          </p>
+          <p class="my-goal-is-to-improv-l4TNtw plusjakartasans-normal-storm-dust-14px">
+            My goal is to improve people&#39;s lives through code. Whether it’s by building intuitive systems,
+            meaningful games, creating stories and experiences that can change and affect people in a good way.
+          </p>
+        </div>
+        <img class="vector-16-2OGcvM animate__animated animate__pulse animate__infinite " src="img/vector-16@2x.png" alt="Vector 16" />
+        <img
+          class="chat-gpt-image-25-de-2OGcvM"
+          src="img/chatgpt-image-25-de-jun--de-2025--12-04-49-1.png"
+          alt="ChatGPT Image 25 de jun. de 2025, 12_04_49 1"
+        />
+      </div>
+      <div class="part1-P5xwPQ" id="part1">
+        <div class="group-96-D4z5JN">
+          <div class="full-stack-developer-Dfzyhx">Full Stack Developer</div>
+          <p class="im-a-full-stack-deve-Dfzyhx im-a-full-stack-deve">
+            I&#39;m a full-stack developer and game designer , feel free to explore and get to know me a bit more!
+          </p>
+          <h1 class="hello-visitor-i-am-fernando-Dfzyhx">Hello visitor, I am <br />Fernando!</h1>
+        </div>
+        <div style="display: none;" class="botao-scroll-D4z5JN botao-scroll">
+          <img class="rectangle-93" src="img/rectangle-93@2x.png" alt="Rectangle 93" />
+          <div class="scroll-down-2fpwbV">Scroll Down</div>
+          <img class="arrow-1-2fpwbV" src="img/arrow-1@2x.png" alt="Arrow 1" />
+        </div>
+        <div class="icons-D4z5JN">
+          <img class="clip-path-group-2LBXcx cssanimation hu__hu__" src="img/clip-path-group@2x.png" alt="Clip path group" />
+        </div>
+      </div>
+      <div class="topbar-P5xwPQ">
+        <div class="rectangle-99-PR5guL"></div>
+        <div class="fernando-PR5guL" style="cursor:pointer;" onclick="location.href='#part1'">Fernando</div>
+        <div class="resume-PR5guL plusjakartasans-normal-azure-20px" style="cursor:pointer; text-decoration:none; " onclick="window.open('docs/resume.pdf')">Resume</div>
+        <div class="contact-PR5guL plusjakartasans-normal-azure-20px" style="cursor:pointer; text-decoration:none; " onclick="location.href='#part6'">Contact</div>
+        <div class="portifolio-PR5guL plusjakartasans-normal-azure-20px" style="cursor:pointer; text-decoration:none; " onclick="location.href='#part4'">Portifolio</div>
+        <div class="experience-PR5guL plusjakartasans-normal-azure-20px" style="cursor:pointer; text-decoration:none; " onclick="location.href='#part5'">Experience</div>
+        <img class="vector-14-PR5guL vector-14" src="img/vector-14-4.png" alt="Vector 14" />
+      </div>
+    </div>
   </body>
 </html>
+
+<script>
+$(document).ready(function () {
+  // Oculta todos os elementos com class*="tXX-7nxgtr"
+  for (let i = 1; i <= 14; i++) {
+    let id = i.toString().padStart(2, '0');
+    $(`[class*="t${id}-7nxgtr"]`).css({ "visibility": "hidden", "opacity": "0", "transition": "opacity 0.5s linear" });
+  }
+
+  
+  let currentVisibleElement = null;
+
+  for (let i = 1; i <= 14; i++) {
+    let id = i.toString().padStart(2, '0');
+
+    $(`[class*="q${id}-5ZFSXI"]`).css({ "cursor": "pointer", "transition": "transform 0.1s" }).on("click", function () {
+      let newElement = $(`[class*="t${id}-7nxgtr"]`);
+      let clickedButton = $(this);
+
+      // Efeito de clique: desce 5px e volta
+      clickedButton.css("transform", "translateY(5px)");
+      setTimeout(() => {
+        clickedButton.css("transform", "translateY(0)");
+      }, 100);
+
+      // Esconde o anterior se for diferente
+      if (currentVisibleElement && !currentVisibleElement.is(newElement)) {
+        currentVisibleElement.css({ "visibility": "hidden", "opacity": "0" });
+      }
+
+      // Alterna visibilidade
+      if (currentVisibleElement && currentVisibleElement.is(newElement)) {
+        newElement.css({ "visibility": "hidden", "opacity": "0" });
+        currentVisibleElement = null;
+      } else {
+        newElement.css({ "visibility": "visible", "opacity": "1" });
+        currentVisibleElement = newElement;
+      }
+    });
+  }
+  $(`[class*="q01-5ZFSXI"]`).trigger("click");
+});
+
+
+</script>
+
+<script>
+  $(document).ready(function () {
+    const scrollContainer = $('.frame-3784-OEvgHx');
+
+    function animateClickEffect(button) {
+      button.css("transform", "translateY(5px)");
+      setTimeout(() => {
+        button.css("transform", "translateY(0)");
+      }, 100);
+    }
+
+    $('#scrollLeft').on('click', function () {
+      animateClickEffect($(this));
+      scrollContainer.animate({ scrollLeft: '-=300' }, 300);
+    });
+
+    $('#scrollRight').on('click', function () {
+      animateClickEffect($(this));
+      scrollContainer.animate({ scrollLeft: '+=300' }, 300);
+    });
+  });
+</script>
+
+<!-- Adicione rolagem suave -->
+<script>
+  $(document).ready(function () {
+    // Rolagem suave para âncoras
+    $('.topbar-P5xwPQ a[href^="#"]').on('click', function (e) {
+      e.preventDefault();
+      var target = $($(this).attr('href'));
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top - 40 // ajuste se necessário
+        }, 600);
+      }
+    });
+  });
+</script>
+

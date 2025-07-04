@@ -1,73 +1,120 @@
 :root { 
+  --alabaster: #f9f9fb;
+  --azure: #455ba3;
   --black: #000000;
-  --crowshead: #1d100af0;
-  --ferra: #734848;
-  --stiletto: #9b3b3b;
+  --ceramic: #fbfffd;
+  --cinnabar: #e74e37;
+  --ebb: #efe4e4;
+  --jaffa: #f08b42;
+  --onyx: #3a3939;
+  --periwinkle: #cacfe1;
+  --pumice: #c9c9c9;
+  --scarpa-flow: #565658;
+  --storm-dust: #616063;
+  --venice-blue: #0f5585;
   --white: #ffffff;
-  --black:rgba(138, 138, 138, 0.993);
-  --white-2: #ffffff40;
  
-  --font-size-l: 23px;
-  --font-size-m: 18px;
-  --font-size-xl: 25px;
-  --font-size-xxl: 28px;
-  --font-size-xxxl: 35px;
-  --font-size-xxxxl: 40px;
-  --font-size-xxxxxl: 70px;
+  --font-size-l: 20px;
+  --font-size-m: 14px;
+  --font-size-s: 12px;
+  --font-size-xl: 22px;
+  --font-size-xs: 10px;
+  --font-size-xxl: 36px;
+  --font-size-xxs: 8px;
  
-  --font-family-concert_one: "Concert One", Helvetica;
+  --font-family-advent_pro: "Advent Pro", Helvetica;
+  --font-family-albert_sans: "Albert Sans", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-plus_jakarta_sans: "Plus Jakarta Sans", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
 }
-.concertone-normal-white-25px {
-  color: var(--white);
-  font-family: var(--font-family-concert_one);
+.plusjakartasans-normal-periwinkle-22px {
+  color: var(--periwinkle);
+  font-family: var(--font-family-plus_jakarta_sans);
   font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 400;
 }
-.concertone-normal-black-25px {
+
+.plusjakartasans-normal-ebb-8px {
+  color: var(--ebb);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.plusjakartasans-normal-storm-dust-14px {
+  color: var(--storm-dust);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.plusjakartasans-normal-periwinkle-14px {
+  color: var(--periwinkle);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.plusjakartasans-normal-storm-dust-22px {
+  color: var(--storm-dust);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.plusjakartasans-normal-black-10px {
   color: var(--black);
-  font-family: var(--font-family-concert_one);
-  font-size: var(--font-size-xl);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 400;
 }
 
-.concertone-normal-stiletto-25px {
-  color: var(--stiletto);
-  font-family: var(--font-family-concert_one);
-  font-size: var(--font-size-xl);
+.plusjakartasans-normal-scarpa-flow-10px {
+  color: var(--scarpa-flow);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 400;
 }
 
-.concertone-normal-white-35px {
-  color: var(--white-2);
-  font-family: var(--font-family-concert_one);
-  font-size: var(--font-size-xxxl);
+.plusjakartasans-normal-periwinkle-10px {
+  color: var(--periwinkle);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 400;
 }
 
-.concertone-normal-black-35px {
-  color: var(--black);
-  font-family: var(--font-family-concert_one);
-  font-size: var(--font-size-xxxl);
+.plusjakartasans-normal-azure-20px {
+  color: var(--azure);
+  font-family: var(--font-family-plus_jakarta_sans);
+  font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 400;
 }
 
-.concertone-normal-white-28px {
-  color: var(--white);
-  font-family: var(--font-family-concert_one);
+.albertsans-medium-scarpa-flow-36px {
+  color: var(--scarpa-flow);
+  font-family: var(--font-family-albert_sans);
   font-size: var(--font-size-xxl);
   font-style: normal;
+  font-weight: 500;
+}
+
+.inter-normal-storm-dust-12-7px {
+  color: var(--storm-dust);
+  font-family: var(--font-family-inter);
+  font-size: 12.7px;
+  font-style: normal;
   font-weight: 400;
 }
 
-.concertone-normal-black-28px {
-  color: var(--black);
-  font-family: var(--font-family-concert_one);
-  font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 400;
+:root {
 }
